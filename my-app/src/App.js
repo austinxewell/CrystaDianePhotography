@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 import Home from './components/Home';
+import Gallery from './components/Gallery';
+import Services from './components/Services';
 
 
 export default function App() {
@@ -13,7 +15,10 @@ export default function App() {
       switch(currentPage) {
         case 'Home':
           return <Home />;
-
+        case 'Media Gallery':
+          return <Gallery />;
+        case 'Services':
+          return <Services />;
   
       }
     };
