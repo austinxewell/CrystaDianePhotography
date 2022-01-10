@@ -1,0 +1,19 @@
+{
+  "name": "crystadianephotography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinxewell/CrystaDianePhotography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinxewell/CrystaDianePhotography/issues"
+  },
+  "homepage": "https://github.com/austinxewell/CrystaDianePhotography#readme"
+}
