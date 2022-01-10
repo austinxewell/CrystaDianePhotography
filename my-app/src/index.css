@@ -32,6 +32,10 @@ body {
   flex-wrap: wrap;
 }
 
+nav {
+  border-bottom: solid 2px;
+}
+
 .nav-link {
 	border-radius: 5px;
 	color: var(--light);
@@ -170,3 +174,20 @@ ul.dropdown-list li {
   font-size: 15px;
   text-decoration: none;	
 }
+
+footer{
+  background-color: grey;
+  height: 75px;
+}
+
+.copyright{
+  padding-top: 35px;
+  text-align: center;
+  font-size: small;
+}
+
+.copyrightLink {
+  text-decoration: none;
+  color: #000;
+}
+
