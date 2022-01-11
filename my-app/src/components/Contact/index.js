@@ -77,8 +77,8 @@ export default function Contact() {
                     <br />
                     801-800-0771
                     <br />
-                    <a href='http://www.Facebook.com/'><FaFacebookF size='20px' /></a>
-                    <a href='http://www.instagram.com'><FaInstagram size='20px' /></a>
+                    <a href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
+                    <a href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
 
                 </p>
             </div>

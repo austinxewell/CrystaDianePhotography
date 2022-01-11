@@ -1,0 +1,27 @@
+footer{
+    background-color: grey;
+    height: 75px;
+}
+
+.copyright{
+    padding-top: 35px;
+    text-align: center;
+    font-size: small;
+}
+
+.copyrightLink {
+    text-decoration: none;
+    color: #000;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+  }
+  
+  .media-icons {
+    size: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+  }

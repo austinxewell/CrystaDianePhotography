@@ -1,0 +1,85 @@
+h3{
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+.phone-span {
+    margin-left: 40px;
+}
+
+.contact-header{
+    margin: auto;
+    align-items: center;
+    border-bottom: solid 1px;
+    width: 90%;
+}
+
+.headerWrapper {
+    overflow: auto;
+}
+
+.navBar {
+    float: right;
+}
+
+.nav-link {
+    border-radius: 5px;
+    color: var(--light);
+    padding: 2px 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
+    font-size: 15px;	
+    text-decoration: none;
+    text-shadow: 2px 2px  var(--dark);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-linkActive {
+    border-radius: 5px;
+	color: var(--dark);
+	padding: 2px 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+    padding-top: 2px;
+    font-size: 15px;	
+    text-shadow: none;
+    background-color: rgba(241, 241, 241, 0.795);
+    font-style: italic;
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+  .headerPhone {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.getInTouchButton {
+    border-radius: 20px;
+    border: solid 2px black;
+    color: black;
+    padding: 10px 4px;
+    margin-top: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    text-decoration: none;	
+}
+  
+  .getInTouchButton:hover {
+    transition: background-color 1s ease-out;
+    border-radius: 20px;
+    border: solid 2px black;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px 4px;
+    margin-top: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    text-decoration: none;	
+}
