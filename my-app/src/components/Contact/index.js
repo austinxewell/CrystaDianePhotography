@@ -83,6 +83,11 @@ export default function Contact() {
                 </p>
             </div>
             <fieldset>
+            {errorMessage && (
+                        <div>
+                            <p className="errorText">{errorMessage}</p>
+                        </div>
+                    )}
                 <form className="contactForm" id="contact-form" onSubmit={submitForm}>
                         <div className='name-emailWrapper'>
                             <label htmlFor="name"></label>
@@ -104,11 +109,6 @@ export default function Contact() {
                         <label htmlFor="message"></label><br />
                         <textarea className="messageText" name="message" rows="5" defaultValue={message} onInput={handleChange} placeholder='Type your message here...' />
                     </div>
-                    {errorMessage && (
-                        <div>
-                            <p className="errorText">{errorMessage}</p>
-                        </div>
-                    )}
                     <button className='submitButton' type="submit">Submit</button>
                 </form>
             </fieldset>
