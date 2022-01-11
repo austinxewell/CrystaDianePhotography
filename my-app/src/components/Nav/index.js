@@ -1,42 +1,32 @@
 import React from 'react'
-import Home from '../Home';
+import { NavLink } from 'react-router-dom';
 
-export default function Nav(props) {
-    const tabs = ['Home', 'Media Gallery', 'Services'];
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+
+
+export default function Nav() {
 
     return (
-        <nav className="flex-row">
-        <div className='container'>
-            <div className='vertical-center'>
-                <h1>CRYSTADIANEPHOTOGRAPHY</h1>
-                <p className='headerPhone'>801-800-0771</p>
-            </div>
-        </div>
-        <ul className="flex-row noBullets">
-          {tabs.map(tab => (
-            <li className="" key={tab}>
-              <a
-                href={'#' + tab.toLowerCase()}
-                onClick={() => props.handlePageChange(tab)}
-                className={
-                props.currentPage === tab ? 'nav-linkActive' : 'nav-link'
-                }
-              >
-                {tab}
-              </a>
-            </li>
-          ))}
-            <div class="dropdown">
-                <span className='more-button'>More</span>
-                <div class="dropdown-content">
-                    <ul className='dropdown-list'>
-                        <li><a className='navDropdownLink' href='#contact'>Contact</a></li>
-                        <li><a className='navDropdownLink' href='#quote'>Quote</a></li>
-                    </ul>
+        <header className="">
+            <div className='flex-row contact-header'>
+                <h3>crystadianephotography@gmail.com</h3>
+                <div className='media-icons'>
+                    <a href='http://www.Facebook.com/'><FaFacebookF size='20px' /></a>
+                    <a href='http://www.instagram.com'><FaInstagram size='20px' /></a>
                 </div>
             </div>
-          <a className='getInTouchButton' href='#contact'>Get In Touch</a>
-        </ul>
-      </nav>
+            <div className='headerWrapper'>
+                <div className='header-font'>
+                    <h1>CRYSTADIANEPHOTOGRAPHY</h1>
+                    <p className='headerPhone'>801-800-0771</p>
+                    <div className='navBar'>
+                        <NavLink exact to="/" className='nav-link' activeClassName='nav-linkActive'>Home</NavLink>
+                        <NavLink exact to="/mediagallery" className='nav-link' activeClassName='nav-linkActive'>Media Gallery</NavLink>
+                        <NavLink exact to="/services" className='nav-link' activeClassName='nav-linkActive'>Services</NavLink>
+                        <NavLink to="/Contact" className='getInTouchButton'>Get In Touch</NavLink>
+                    </div>
+                </div>
+            </div>
+        </header>
     )
 }

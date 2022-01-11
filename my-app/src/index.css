@@ -27,13 +27,28 @@ body {
   font-family: 'Catamaran', sans-serif;
 }
 
+h3{
+  margin-left: 20px;
+  font-size: 13px;
+}
+.contact-header{
+  margin: auto;
+  align-items: center;
+  border-bottom: solid 1px;
+  width: 90%;
+}
+
+.headerWrapper {
+  overflow: auto;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-nav {
-  border-bottom: solid 2px;
+.navBar {
+  float: right;
 }
 
 .nav-link {
@@ -57,7 +72,7 @@ nav {
 	margin-right: 2px;
   padding-top: 2px;
   font-size: 15px;	
-  text-decoration: none;
+  text-shadow: none;
   background-color: rgba(241, 241, 241, 0.795);
   font-style: italic;
 }
@@ -65,17 +80,16 @@ nav {
 ul.noBullets{
   list-style-type: none;
   margin-left: auto;
-
 }
 
 h1{
-  font-size: medium;
+  font-size: 30px;
   margin-left: 10px;
 }
 
 .headerPhone {
-  font-size: small;
-  margin-left: 20px;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
 .container {
@@ -96,6 +110,7 @@ h1{
   margin-left: 2px;
 	margin-right: 2px;
   height: 21px;
+  
 }
 
 .dropdown {
@@ -106,11 +121,10 @@ h1{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: #e9e8e8;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
-  z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -120,18 +134,29 @@ h1{
 ul.dropdown-list{
   list-style: none;
   padding-left: 0;
-}
-
-ul.dropdown-list li {
-  font-size: small;
+  margin-top: -40px;
 }
 
 .navDropdownLink{
   text-decoration: none;
   color: black;
+  font-size: small;
 }
 
 .more-button {
+  border-radius: 5px;
+	color: var(--light);
+	padding: 2px 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+  padding-top: 2px;
+  font-size: 15px;	
+  text-decoration: none;
+  text-shadow: 2px 2px  var(--dark);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-button {
   border-radius: 5px;
 	color: var(--light);
 	padding: 2px 4px;
@@ -189,5 +214,17 @@ footer{
 .copyrightLink {
   text-decoration: none;
   color: #000;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
+}
+
+.media-icons {
+  size: 20px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
