@@ -9,7 +9,7 @@ export default function Nav() {
     return (
         <header className="">
             <div className='flex-row contact-header'>
-                <h3>crystadianephotography@gmail.com</h3>
+                <h3><a href='mailto:crystadianephotography@gmail.com'>crystadianephotography@gmail.com</a><span className='phone-span'>801-800-0771</span></h3>
                 <div className='media-icons'>
                     <a href='http://www.Facebook.com/'><FaFacebookF size='20px' /></a>
                     <a href='http://www.instagram.com'><FaInstagram size='20px' /></a>

@@ -1,0 +1,61 @@
+section {
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 13px;
+}
+
+.contact-form {
+    display: block
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.halfInput {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+.fullInput {
+   width: 62%;
+   padding: 10px;
+   border: none;
+   border-bottom: black solid 1px;
+}
+
+textarea{
+    margin-top: -58px;
+    width: 62%;
+    padding: 20px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+.name-emailWrapper {
+margin-bottom: -28px;
+}
+
+.phone-addressWrapper {
+    margin-bottom: -28px;
+}
+
+fieldset {
+    border: none;
+}
+
+.submitButton {
+    width: 62%;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
