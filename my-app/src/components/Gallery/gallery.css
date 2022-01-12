@@ -1,0 +1,11 @@
+.imageCard {
+    margin: auto;
+}
+
+.galleryImg {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+    border: solid black 2px;
+    border-radius: 10px;
+  }

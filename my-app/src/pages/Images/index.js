@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default Image = (props) => {
     const {
         imgAlt,
-        imgLinkName
+        imgLinkName,
+        openModal,
+        modalInfo
     } = props;
 
+    function setState() {
+        openModal(true);
+        modalInfo([imgAlt, imgLinkName])
+    }
+
     return (
-        <div className="imageCard">
-            <img src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
+        <div className="imageCard"
+        onClick={() => 
+            setState()
+        }>
+            <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
+            
         </div>
     )
 }

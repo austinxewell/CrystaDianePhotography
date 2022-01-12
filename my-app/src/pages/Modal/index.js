@@ -1,16 +1,18 @@
 import React from 'react'
+import './modal.css'
 
-export default function Modal({ closeModal, imgAlt, imgLinkName }) {
-    console.log(imgAlt, imgLinkName)
+export default function Modal({ closeModal, modalInfo }) {
+    const imgName = modalInfo[0];
+    const imgLink = modalInfo[1]
+
     return (
         <div className='modalBackground'>
-            <div className='modalContainer'>
-                <button onClick={() => closeModal(false)}>X</button>
+            <div className=''>
+                <button className='exitImgBtn' onClick={() => closeModal(false)}>Exit Image</button>
                 <div className='title'>
-                    <h1>{imgAlt}</h1>
                 </div>
                 <div className='body'>
-                <img src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
+                <img className='modalImage' src={require(`../../assets/galleryImages/${imgLink}.jpg`)} alt={`${imgName}`}></img>
                 </div>
             </div>            
         </div>
