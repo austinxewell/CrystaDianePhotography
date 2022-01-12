@@ -2,6 +2,11 @@
   --light: #fafafa;
   --dark: #000;
   --error: rgb(228, 46, 1);
+  --primary: #bf764c;
+  --secondary: #f7d6bd;
+  --terciary: #db9a68;
+  --quartinary: #ad704f;
+  --borderColor: #858568;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -23,7 +28,7 @@ body {
   line-height: 1.5;
   font-size: 40px;
   letter-spacing: .1em;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .flex-row {

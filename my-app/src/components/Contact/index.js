@@ -68,7 +68,7 @@ export default function Contact() {
 
     return (
         <section className='contactCard'>
-            <div className='mx-2'>
+            <div className='contact-infoWrapper'>
                 <h2>CONTACT INFO</h2>
                 <p className='contact-info'>
                     West Jordan, UT 84088, USA

@@ -11,9 +11,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 
 
-export default function App() {
-
-  
+export default function App() {  
   const [currentPage, handlePageChange] = useState('Home');
 
   const renderPage = (currentPage) => {
@@ -24,7 +22,6 @@ export default function App() {
           return <Gallery />;
         case 'Services':
           return <Services />;
-  
       }
     };
 

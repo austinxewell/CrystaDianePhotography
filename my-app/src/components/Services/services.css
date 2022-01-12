@@ -1,0 +1,62 @@
+.serviceWrapper {
+    padding-bottom: 5px;
+}
+
+h2{
+    text-decoration: underline 2px;
+}
+
+.h2Wrapper {
+    text-align: center;
+    background-color: var(--secondary);
+}
+
+.serviceCardWrapper{
+    display: flex;
+    flex: row;
+    border: solid var(--borderColor) 2px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--terciary);
+    width: 90%;
+    height: 400px;
+}
+
+/* .serviceCardWrapper{
+    display: flex;
+    flex: row;
+    border: solid var(--borderColor) 2px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: var(--terciary);
+    width: 100%;
+} */
+
+.serviceImg {
+    object-fit: cover;
+    width: 600px;
+    height:400px;
+    border-left: solid var(--borderColor) 2px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.serviceDetails {
+    margin: auto;
+}
+
+.servicePrice {
+    margin-top: -60px;
+    font-size: 25px;
+}
+
+.serviceList {
+    text-align: left;
+    font-size: 20px;
+    margin-top: -20px;
+}

@@ -32,7 +32,7 @@ h3{
     font-size: 15px;	
     text-decoration: none;
     text-shadow: 2px 2px  var(--dark);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--terciary);
 }
 
 .nav-linkActive {
@@ -44,7 +44,7 @@ h3{
     padding-top: 2px;
     font-size: 15px;	
     text-shadow: none;
-    background-color: rgba(241, 241, 241, 0.795);
+    background-color: var(--secondary);
     font-style: italic;
 }
 
@@ -69,6 +69,19 @@ h1{
     font-size: 15px;
     text-decoration: none;	
 }
+
+.getInTouch-linkActive {
+    border-radius: 20px;
+    border: solid 2px black;
+    background-color: rgb(3, 3, 3);
+    color: white !important;
+    padding: 10px 4px;
+    margin-top: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    text-decoration: none;
+}
   
   .getInTouchButton:hover {
     transition: background-color 1s ease-out;
@@ -83,3 +96,4 @@ h1{
     font-size: 15px;
     text-decoration: none;	
 }
+

@@ -24,7 +24,7 @@ export default function Nav() {
                         <NavLink exact to="/" className='nav-link' activeClassName='nav-linkActive'>Home</NavLink>
                         <NavLink exact to="/mediagallery" className='nav-link' activeClassName='nav-linkActive'>Media Gallery</NavLink>
                         <NavLink exact to="/services" className='nav-link' activeClassName='nav-linkActive'>Services</NavLink>
-                        <NavLink to="/Contact" className='getInTouchButton'>Get In Touch</NavLink>
+                        <NavLink exact to="/Contact" className='getInTouchButton' activeClassName='getInTouch-linkActive'>Get In Touch</NavLink>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './gallery.css'
 
 import Image from '../../pages/Images'
@@ -12,19 +12,22 @@ export default function Gallery() {
 
     return (
         <section className='galleryWrapper'>
-            {openModal && <Modal closeModal={setOpenModal} modalInfo={modalInfo}/>}
+            {openModal && <Modal closeModal={setOpenModal} modalInfo={modalInfo} />}
+            <div className='h2Wrapper'>
             <h2>MEDIA GALLERY</h2>
-            <a
-            className="flex-row cardContainer">
-                {images.map((image) => (
-                    <Image 
-                        imgAlt={image.imgAlt}
-                        imgLinkName={image.imgLinkName}
-                        openModal={setOpenModal}
-                        modalInfo={setModalInfo}
-                    />
+            </div>
+            <div className='card-container'>
+                <a className="flex-row">
+                    {images.map((image) => (
+                        <Image
+                            imgAlt={image.imgAlt}
+                            imgLinkName={image.imgLinkName}
+                            openModal={setOpenModal}
+                            modalInfo={setModalInfo}
+                        />
                     ))}
-            </a>
+                </a>
+            </div>
         </section>
     )
 }

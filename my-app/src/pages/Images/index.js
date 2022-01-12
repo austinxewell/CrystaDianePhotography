@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default Image = (props) => {
     const {
@@ -15,11 +15,8 @@ export default Image = (props) => {
 
     return (
         <div className="imageCard"
-        onClick={() => 
-            setState()
-        }>
-            <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
-            
+        onClick={() => setState()}>
+            <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>     
         </div>
     )
 }

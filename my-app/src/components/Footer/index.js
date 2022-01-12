@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="copyright">
                 &copy;by crystadianephotography.
                 <br />
-                Proudly created by <a className='copyrightLink' href='https://github.com/austinxewell'>Austin Ewell</a>
+                Proudly created by <a className='copyrightLink' href='https://github.com/austinxewell' target='_blank'>Austin Ewell</a>
             </div>    
         </footer>
     )

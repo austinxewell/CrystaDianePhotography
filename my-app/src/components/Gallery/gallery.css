@@ -2,10 +2,15 @@
     margin: auto;
 }
 
+.card-container {
+    margin-top: 10px;
+}
+
 .galleryImg {
     object-fit: cover;
-    width:230px;
-    height:230px;
-    border: solid black 2px;
+    width:300px;
+    height:300px;
+    border: solid var(--borderColor) 2px;
     border-radius: 10px;
-  }
+    cursor: pointer;
+}
