@@ -4,7 +4,6 @@
 
 .serviceWrapper {
     justify-content: center;
-    margin-left: 200px;
 }
 
 .h2Title{
@@ -13,12 +12,13 @@
 
 .collectionImg {
     object-fit: cover;
-    width:350px;
+    width:400px;
     height:500px;
 }
 
 .collectionText {
     position: relative;
+    width: 30%;
 }
 
 .collectionTitle {
@@ -27,7 +27,6 @@
 
 .collectionPrice {
     font-size: 30px;
-    font-weight: 900;
     margin-top: -40px;
     margin-left: 70px;
 }
@@ -44,6 +43,13 @@
 .collectionDetails {
     font-size: 13px;
     margin-left: 30px;
+    color: var(--dark);
+    position: absolute;
+    bottom: 90px;
+}
+
+.collectionDetails:hover {
+    font-style: italic;
 }
 
 .collectionInquire {
@@ -60,9 +66,101 @@
     cursor: pointer;
 }
 
+.collectionInquire:hover {
+    font-style: italic;
+}
+
 .collectionGallery {
     font-size: 15px;
     position: absolute;
-    bottom: 40px;
+    bottom: 28px;
     margin-left: 180px;
+    font-family: 'Josefin Slab', serif;
+    color: var(--dark);
 }
+
+.collectionGallery:hover {
+    font-style: italic;
+}
+
+/* Left CSS */
+
+.collectionLeftImg {
+    object-fit: cover;
+    width:400px;
+    height:500px;
+}
+
+.collectionLeftTitle {
+    float: right;
+    margin-right: 20px;
+}
+
+.collectionLeftPrice {
+    float: right;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-right: 70px;
+}
+
+.collectionLeftList{
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.collectionLeftListItem {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.collectionLeftInquire {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    color: var(--light);
+    background-color: var(--dark);
+    border: solid var(--dark);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collectionLeftInquire:hover {
+    font-style: italic;
+}
+
+.collectionLeftGallery {
+    font-size: 15px;
+    font-family: 'Josefin Slab', serif;
+    color: var(--dark);
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:link:hover {
+    font-style: italic;
+}
+
+.random {
+    float: right;
+    position: absolute;
+    bottom: -300px;
+}
+
+.collectionLeftDetails {
+    font-size: 13px;
+    margin-left: 30px;
+    color: var(--dark);
+    position: absolute;
+    bottom: -235px;
+    margin-left: 155px;
+}
+
+.collectionLeftDetails:hover {
+    font-style: italic;
+}
+
