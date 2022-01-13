@@ -21,7 +21,6 @@
 
 .nav-linkActive {
     border-radius: 5px;
-	color: var(--dark);
 	padding: 2px 4px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -30,6 +29,11 @@
     text-shadow: none;
     color: var(--primary) !important;
     font-style: italic;
+}
+
+.nav-linkActiveDropdown {
+    color: var(--primary) !important;
+    background-color: #ddd
 }
 
 .mainName {
