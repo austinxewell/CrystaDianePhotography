@@ -99,14 +99,14 @@
 .collectionLeftPrice {
     float: right;
     font-size: 30px;
+    margin-right: 40px;
     margin-top: -40px;
-    margin-right: 70px;
 }
 
 .collectionLeftList{
     float: right;
     margin-top: -20px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .collectionLeftListItem {
@@ -134,7 +134,6 @@
     font-family: 'Josefin Slab', serif;
     color: var(--dark);
     margin-right: 20px;
-    margin-left: -10px;
 }
 
 a:link {
@@ -147,17 +146,19 @@ a:link:hover {
 
 .random {
     float: right;
-    position: absolute;
-    bottom: -300px;
+    position: relative;
+    bottom: -170px;
+    margin-right: -40px;
 }
 
 .collectionLeftDetails {
+    float: right;
     font-size: 13px;
     margin-left: 30px;
     color: var(--dark);
-    position: absolute;
-    bottom: -235px;
-    margin-left: 155px;
+    position: relative;
+    bottom: -230px;
+    margin-right: -260px;
 }
 
 .collectionLeftDetails:hover {
