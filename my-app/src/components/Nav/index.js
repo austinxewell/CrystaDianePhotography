@@ -23,6 +23,12 @@ export default function Nav() {
                     <div class="dropdown-content">
                     <NavLink exact to="/services" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>All Services</NavLink>
                     <NavLink exact to="/Weddings" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Weddings</NavLink>
+                    <NavLink exact to="/Maternity" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Maternity</NavLink>
+                    <NavLink exact to="/IndividualHeadshots" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Individual/Headshots</NavLink>
+                    <NavLink exact to="/Family" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Family</NavLink>
+                    <NavLink exact to="/Couples" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Couples</NavLink>
+                    <NavLink exact to="/Seniors" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Seniors</NavLink>
+                    <NavLink exact to="/SchoolDances" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>School Dances</NavLink>
                     </div>
                 </div>
                 <NavLink exact to="/Contact" className='nav-link' activeClassName='nav-linkActive'>Contact</NavLink>

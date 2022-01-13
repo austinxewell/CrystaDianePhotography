@@ -11,7 +11,12 @@ import Gallery from './components/Gallery';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Weddings from './pages/Weddings';
-
+import Maternity from './pages/Maternity';
+import IndividualHeadshots from './pages/IndividualHeadshots';
+import Family from './pages/Family';
+import Couples from './pages/Couples';
+import Seniors from './pages/Seniors';
+import SchoolDances from './pages/SchoolDances';
 
 export default function App() {  
   const [currentPage, handlePageChange] = useState('Home');
@@ -38,6 +43,12 @@ export default function App() {
             <Route exact path = "/Services" component ={Services} />
             <Route exact path = "/Contact" component ={Contact} />
             <Route exact path = "/Weddings" component ={Weddings} />
+            <Route exact path = "/Maternity" component ={Maternity} />
+            <Route exact path = "/IndividualHeadshots" component ={IndividualHeadshots} />
+            <Route exact path = "/Family" component ={Family} />
+            <Route exact path = "/Couples" component ={Couples} />
+            <Route exact path = "/Seniors" component ={Seniors} />
+            <Route exact path = "/SchoolDances" component ={SchoolDances} />
 
             <Route component={Home} />
           </Switch>
