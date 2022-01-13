@@ -40,7 +40,7 @@ h2{
 .serviceImg {
     object-fit: cover;
     width: 600px;
-    height:400px;
+    height:396px;
     border-left: solid var(--borderColor) 2px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;

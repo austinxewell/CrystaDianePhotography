@@ -1,27 +1,47 @@
-footer{
-    background-color: var(--terciary);
-    height: 75px;
+footer {
+    background-color: #1F1F1F;
+    color: white;
+    justify-content: center; 
+    width: 100%;
 }
 
-.copyright{
-    padding-top: 35px;
-    text-align: center;
-    font-size: small;
+.mainNameFooter {
+    margin: auto;
+
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-right: 10px;
+    font-size: 10px;
 }
 
 .copyrightLink {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
-a:link, a:visited {
+footer a:link, a:visited {
     text-decoration: none;
     text-shadow: none;
-    color: black;
-  }
+    color: white;
+}
   
-  .media-icons {
+footer .media-icons {
     size: 20px;
-    margin-left: auto;
-    margin-right: 20px;
-  }
+}
+
+.nav-linkFooter {
+    color: var(--light);
+    font-size: 15px;	
+}
+
+.contactFooter {
+    text-align: center;
+    
+}
+
+.emailFooter {
+    font-size: 10px;
+    margin-left: 10px;
+}

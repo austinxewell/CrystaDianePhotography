@@ -1,50 +1,29 @@
-h3{
-    margin-left: 20px;
-    font-size: 11px;
-}
-
-.phone-span {
-    margin-left: 40px;
-}
-
-.contact-header{
-    margin: auto;
-    align-items: center;
-    border-bottom: solid 1px;
-    width: 90%;
-}
-
-.headerWrapper {
-    overflow: auto;
-}
-
 .navBar {
-    float: right;
+    justify-content: center;
 }
 
 .nav-link {
     border-radius: 5px;
-    color: var(--light);
+    color: var(--dark) !important;
     padding: 2px 4px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
     padding-top: 2px;
     font-size: 15px;	
     text-decoration: none;
-    text-shadow: 2px 2px  var(--dark);
-    background-color: var(--terciary);
 }
 
 .nav-linkActive {
     border-radius: 5px;
 	color: var(--dark);
 	padding: 2px 4px;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
     padding-top: 2px;
     font-size: 15px;	
     text-shadow: none;
-    background-color: var(--secondary);
+    color: var(--primary) !important;
     font-style: italic;
 }
 
@@ -53,47 +32,8 @@ h1{
     margin-left: 10px;
 }
 
-  .headerPhone {
-    font-size: 20px;
-    margin-left: 50px;
+.mainName {
+    text-align: center;
 }
 
-.getInTouchButton {
-    border-radius: 20px;
-    border: solid 2px black;
-    color: black;
-    padding: 10px 4px;
-    margin-top: 24px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-size: 15px;
-    text-decoration: none;	
-}
-
-.getInTouch-linkActive {
-    border-radius: 20px;
-    border: solid 2px black;
-    background-color: rgb(3, 3, 3);
-    color: white !important;
-    padding: 10px 4px;
-    margin-top: 24px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-size: 15px;
-    text-decoration: none;
-}
-  
-  .getInTouchButton:hover {
-    transition: background-color 1s ease-out;
-    border-radius: 20px;
-    border: solid 2px black;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    padding: 10px 4px;
-    margin-top: 24px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-size: 15px;
-    text-decoration: none;	
-}
 
