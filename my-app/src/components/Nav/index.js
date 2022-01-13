@@ -18,7 +18,13 @@ export default function Nav() {
                         PHOTOGRAPHY
                     </h1>
                 </div>
-                <NavLink exact to="/services" className='nav-link' activeClassName='nav-linkActive'>Services</NavLink>
+                <div class="dropdown">
+                    <span class="nav-link dropBtn">Services</span>
+                    <div class="dropdown-content">
+                    <NavLink exact to="/services" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>All Services</NavLink>
+                    <NavLink exact to="/Weddings" className='nav-linkDropdown' activeClassName='nav-linkActiveDropdown'>Weddings</NavLink>
+                    </div>
+                </div>
                 <NavLink exact to="/Contact" className='nav-link' activeClassName='nav-linkActive'>Contact</NavLink>
             </div>
         </header>

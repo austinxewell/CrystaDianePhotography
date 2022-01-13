@@ -2,34 +2,72 @@ section {
     text-align: center;
 }
 
+input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+}
+
+textarea {
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.contactWrapper {
+    padding-top: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.3);
+    width: 800px;
+    height: auto;
+}
+
+.contactCard {
+    background: url("../../assets/backgroundImages/pic3.JPG");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
 .contact-info {
     font-size: 13px;
 }
 
-.contact-form {
-    display: block
-}
 
 .halfInput {
-    width: 30%;
+    width: 350px;
     height: 40px;
     margin: 10px;
     border: none;
-    border-bottom: black solid 1px;
+    border-bottom: white solid 1px;
 }
 
 .fullInput {
-   width: 62%;
+   width: 720px;
    height: 40px;
    border: none;
-   border-bottom: black solid 1px;
+   border-bottom: white solid 1px;
 }
 
 textarea{
     margin-top: -58px;
-    width: 62%;
+    width: 720px;
     border: none;
-    border-bottom: black solid 1px;
+    border-bottom: white solid 1px;
 }
 
 .name-emailWrapper {
@@ -45,24 +83,22 @@ fieldset {
 }
 
 .submitButton {
-    width: 62%;
+    width: 100%;
     height: 50px;
     font-size: 20px;
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 9px #999;
 }
 
-.submitButton:active {
-    background-color: white;
-    box-shadow: 0 5px rgb(68, 67, 67);
-    transform: translateY(4px);
+.submitButton:hover {
+    font-style: italic;
 }
 
 .errorText {
-    color: red;
-    font-size: 18px;
+    color: tomato;
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px;
     margin-top: -20px;
     margin-bottom: 0px;
 }
@@ -79,3 +115,50 @@ fieldset {
 .contactEmail:hover{
     font-style: italic;
 }
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

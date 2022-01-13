@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 //component imports
 import Nav from './components/Nav';
 import Footer from './components/Footer'
@@ -9,6 +10,7 @@ import Home from './components/Home';
 import Gallery from './components/Gallery';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Weddings from './pages/Weddings';
 
 
 export default function App() {  
@@ -35,6 +37,7 @@ export default function App() {
             <Route exact path = "/mediagallery" component ={Gallery} />
             <Route exact path = "/Services" component ={Services} />
             <Route exact path = "/Contact" component ={Contact} />
+            <Route exact path = "/Weddings" component ={Weddings} />
 
             <Route component={Home} />
           </Switch>

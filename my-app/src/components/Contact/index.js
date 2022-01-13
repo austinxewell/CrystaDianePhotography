@@ -21,9 +21,9 @@ export default function Contact() {
         } else if (e.target.name === 'phone') {
             const isValid = validatePhoneNumber(e.target.value);
             phone = e.target.value
-            if(!isValid) {
+            if (!isValid) {
                 setErrorMessage('Your phone number is invalid!');
-            }else {
+            } else {
                 setErrorMessage('')
             }
         } else {
@@ -39,6 +39,12 @@ export default function Contact() {
         if (e.target.name === 'message') {
             message = e.target.value
         }
+        if (e.target.name === 'address') {
+            address = e.target.value
+        }
+        if (e.targer.name === 'subject') {
+            subject = e.target.value
+        }
     };
 
     const formId = 'H1PvHOWb';
@@ -47,8 +53,9 @@ export default function Contact() {
     const submitForm = async (event) => {
         event.preventDefault();
         await postSubmission();
-        alert("Your Message has been sent!");
-        window.location.reload()
+        alert(`
+        Your Message: Hi Crysta, My name is ${name}. My contact informatin is email: ${email}, phone: ${phone}, and address: ${address}. the subject of my message is: ${subject}. Message: ${message}.
+        `);
     };
 
     const postSubmission = async () => {
@@ -64,7 +71,7 @@ export default function Contact() {
         }
     };
 
-    //not catching the address or subject in formspark.
+    //not catching the subject in formspark.
 
     return (
         <section className='contactCard'>
@@ -79,28 +86,27 @@ export default function Contact() {
                     <br />
                     <a className='contactIcon' href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
                     <a className='contactIcon' href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
-
                 </p>
             </div>
-            <fieldset>
-            {errorMessage && (
-                        <div>
-                            <p className="errorText">{errorMessage}</p>
-                        </div>
-                    )}
+            <fieldset className='contactWrapper'>
+                {errorMessage && (
+                    <div>
+                        <p className="errorText">{errorMessage}</p>
+                    </div>
+                )}
                 <form className="contactForm" id="contact-form" onSubmit={submitForm}>
-                        <div className='name-emailWrapper'>
-                            <label htmlFor="name"></label>
-                            <input className='halfInput' type="text" name="name" defaultValue={name} onInput={handleChange} placeholder='Name:' />
-                            <label htmlFor="email"></label>
-                            <input className='halfInput' type="email" name="email" defaultValue={email} onInput={handleChange} placeholder='Email:' />
-                        </div>
-                        <div className='phone-addressWrapper'>
-                            <label htmlFor="phone"></label>
-                            <input className='halfInput' type="tel" name="phone" defaultValue={phone} onInput={handleChange} placeholder='Phone: Number' />
-                            <label htmlFor="address"></label>
-                            <input className='halfInput' type="text" name="address" defaultValue={address} onInput={handleChange} placeholder='Address:' />
-                        </div>
+                    <div className='name-emailWrapper'>
+                        <label htmlFor="name"></label>
+                        <input className='halfInput' type="text" name="name" defaultValue={name} onInput={handleChange} placeholder='Name:' />
+                        <label htmlFor="email"></label>
+                        <input className='halfInput' type="email" name="email" defaultValue={email} onInput={handleChange} placeholder='Email:' />
+                    </div>
+                    <div className='phone-addressWrapper'>
+                        <label htmlFor="phone"></label>
+                        <input className='halfInput' type="tel" name="phone" defaultValue={phone} onInput={handleChange} placeholder='Phone Number:' />
+                        <label htmlFor="address"></label>
+                        <input className='halfInput' type="text" name="address" defaultValue={address} onInput={handleChange} placeholder='Address:' />
+                    </div>
                     <div className='subjectWrapper'>
                         <label htmlFor="subject"></label>
                         <input className='fullInput' type="text" name="subject" defaultValue={subject} onInput={handleChange} placeholder='Subject:' />
