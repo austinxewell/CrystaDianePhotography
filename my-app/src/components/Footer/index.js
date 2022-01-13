@@ -11,8 +11,8 @@ export default function Footer() {
                 <br />
                 <a className='emailFooter' href='mailto:crystadianephotography@gmail.com'>crystadianephotography@gmail.com</a>
                 <div>
-                    <a href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
-                    <a href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
+                    <a className='icon' href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
+                    <a className='icon' href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
                 </div>
             </div>
             <div className='mainNameFooter'>

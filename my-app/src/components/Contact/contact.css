@@ -2,23 +2,12 @@ section {
     text-align: center;
 }
 
-.contact-infoWrapper{
-    background-color: var(--secondary);
-}
-
 .contact-info {
     font-size: 13px;
 }
 
 .contact-form {
     display: block
-}
-
-h2 {
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-family: 'Cormorant SC', serif;
 }
 
 .halfInput {
@@ -76,4 +65,17 @@ fieldset {
     font-size: 18px;
     margin-top: -20px;
     margin-bottom: 0px;
+}
+
+.contactIcon:visited {
+    color: var(--dark);
+}
+
+.contactEmail{
+    text-decoration: none !important;
+    color: var(--dark);
+}
+
+.contactEmail:hover{
+    font-style: italic;
 }

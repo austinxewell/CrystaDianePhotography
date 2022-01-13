@@ -73,12 +73,12 @@ export default function Contact() {
                 <p className='contact-info'>
                     West Jordan, UT 84088, USA
                     <br />
-                    <a href='mailto:crystadianephotography@gmail.com'>crystadianephotography@gmail.com</a>
+                    <a className='contactEmail' href='mailto:crystadianephotography@gmail.com'>crystadianephotography@gmail.com</a>
                     <br />
                     801-800-0771
                     <br />
-                    <a href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
-                    <a href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
+                    <a className='contactIcon' href='https://www.facebook.com/crystadianephotography' target='_blank'><FaFacebookF size='20px' /></a>
+                    <a className='contactIcon' href='https://www.instagram.com/crystadianephotography/' target='_blank'><FaInstagram size='20px' /></a>
 
                 </p>
             </div>

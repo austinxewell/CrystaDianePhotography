@@ -14,3 +14,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.galleryWrapper {
+    background-color: var(--background);
+}

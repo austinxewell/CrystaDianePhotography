@@ -1,13 +1,13 @@
 footer {
     background-color: #1F1F1F;
-    color: white;
+    color: var(--light);
     justify-content: center; 
     width: 100%;
 }
 
 .mainNameFooter {
     margin: auto;
-
+    text-align: center;
 }
 
 .copyright {
@@ -18,17 +18,17 @@ footer {
 
 .copyrightLink {
     text-decoration: none;
-    color: white;
+    color: var(--light);
 }
 
-footer a:link, a:visited {
+footer a:link, footer a:visited {
     text-decoration: none;
     text-shadow: none;
-    color: white;
+    color: var(--light);
 }
-  
-footer .media-icons {
-    size: 20px;
+
+footer a:link:hover{
+    font-style: italic;
 }
 
 .nav-linkFooter {

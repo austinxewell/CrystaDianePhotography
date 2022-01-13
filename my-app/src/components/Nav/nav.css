@@ -1,5 +1,6 @@
 .navBar {
     justify-content: center;
+    background-color: var(--secondary);
 }
 
 .nav-link {
@@ -10,8 +11,12 @@
     margin-right: 20px;
     margin-top: 50px;
     padding-top: 2px;
-    font-size: 15px;	
+    font-size: 18px;	
     text-decoration: none;
+}
+
+.nav-link:hover{
+    font-style: italic;
 }
 
 .nav-linkActive {
@@ -21,15 +26,10 @@
 	margin-left: 20px;
 	margin-right: 20px;
     padding-top: 2px;
-    font-size: 15px;	
+    font-size: 18px;	
     text-shadow: none;
     color: var(--primary) !important;
     font-style: italic;
-}
-
-h1{
-    font-size: 30px;
-    margin-left: 10px;
 }
 
 .mainName {

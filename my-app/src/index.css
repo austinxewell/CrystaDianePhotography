@@ -6,6 +6,7 @@
   --secondary: #f7d6bd;
   --terciary: #db9a68;
   --quartinary: #ad704f;
+  --background: #E3E2DE;
   --borderColor: #858568;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -28,10 +29,28 @@ body {
   line-height: 1.5;
   font-size: 40px;
   letter-spacing: .1em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+h1{
+  font-size: 30px;
+  margin-left: 10px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-family: 'Josefin Slab', serif;
+}
+
+h3 {
+  font-size: 40px;
 }

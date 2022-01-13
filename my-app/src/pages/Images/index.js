@@ -1,4 +1,5 @@
 import React from 'react'
+import Item from '../Item';
 
 export default Image = (props) => {
     const {
@@ -14,9 +15,9 @@ export default Image = (props) => {
     }
 
     return (
-        <div className="imageCard"
-        onClick={() => setState()}>
-            <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>     
-        </div>
+            <div className="imageCard"
+                onClick={() => setState()}>
+                <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
+            </div>
     )
 }

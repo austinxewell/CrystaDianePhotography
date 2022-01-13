@@ -1,62 +1,68 @@
+.servicesWrapper {
+    background-color: var(--background);
+}
+
 .serviceWrapper {
-    padding-bottom: 5px;
+    justify-content: center;
+    margin-left: 200px;
 }
 
-h2{
-    text-decoration: underline 2px;
-}
-
-.h2Wrapper {
+.h2Title{
     text-align: center;
-    background-color: var(--secondary);
 }
 
-.serviceCardWrapper{
-    display: flex;
-    flex: row;
-    border: solid var(--borderColor) 2px;
-    border-radius: 20px;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    background-color: var(--terciary);
-    width: 90%;
-    height: 400px;
-}
-
-/* .serviceCardWrapper{
-    display: flex;
-    flex: row;
-    border: solid var(--borderColor) 2px;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    background-color: var(--terciary);
-    width: 100%;
-} */
-
-.serviceImg {
+.collectionImg {
     object-fit: cover;
-    width: 600px;
-    height:396px;
-    border-left: solid var(--borderColor) 2px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    width:350px;
+    height:500px;
 }
 
-.serviceDetails {
-    margin: auto;
+.collectionText {
+    position: relative;
 }
 
-.servicePrice {
-    margin-top: -60px;
-    font-size: 25px;
+.collectionTitle {
+    margin-left: 20px;
 }
 
-.serviceList {
-    text-align: left;
-    font-size: 20px;
+.collectionPrice {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+.collectionList {
     margin-top: -20px;
+}
+
+.collectionListItem {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.collectionDetails {
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.collectionInquire {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    color: var(--light);
+    background-color: var(--dark);
+    position: absolute;
+    bottom: 25px;
+    margin-left: -40px;
+    border: solid var(--dark);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collectionGallery {
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 180px;
 }
