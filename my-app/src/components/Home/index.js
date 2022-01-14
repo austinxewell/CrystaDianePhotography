@@ -15,7 +15,7 @@ export default function Home() {
         <div className='homeWrapper'>
             <h2 className='homeTitle'>HOME</h2>
             <container className='referenceWrapper'>
-                <h3 className='reviewsTitle'>REVIEWS</h3>
+                <h3 className='reviewsTitle'>•REVIEWS•</h3>
                 <div className='referenceCardWrapper'>
                     <ul className='references'>
                         {references.map((reference) => (

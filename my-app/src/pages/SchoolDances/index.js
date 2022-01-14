@@ -3,7 +3,7 @@ import React from 'react'
 export default function SchoolDances() {
     return (
         <div>
-            School Dances Page
+            <h2>SCHOOL DANCES</h2>
         </div>
     )
 }

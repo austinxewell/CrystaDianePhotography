@@ -36,7 +36,7 @@ textarea {
 }
 
 .contactCard {
-    background: url("../../assets/backgroundImages/pic3.JPG");
+    background: url("../../assets/backgroundImages/pic1.JPG");
     background-size: cover;
     width: 100%;
     height: auto;
@@ -116,6 +116,13 @@ fieldset {
     font-style: italic;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
 
   
 

@@ -3,7 +3,7 @@ import React from 'react'
 export default function IndividualHeadshots() {
     return (
         <div>
-            Individual and Hedshots page
+            <h2>INDIVIDUAL / HEADSHOTS</h2>
         </div>
     )
 }

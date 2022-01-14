@@ -58,3 +58,7 @@
 .__react_modal_image__caption {
     text-shadow: 2px 2px 6px black !important;
 }
+
+.__react_modal_image__header {
+    background: none !important;
+  }

@@ -15,7 +15,8 @@ export default function Contact() {
             email = e.target.value
             if (!isValid) {
                 setErrorMessage('Your email is invalid!');
-            } else {
+            } 
+            else {
                 setErrorMessage('');
             }
         } else if (e.target.name === 'phone') {
@@ -23,13 +24,15 @@ export default function Contact() {
             phone = e.target.value
             if (!isValid) {
                 setErrorMessage('Your phone number is invalid!');
-            } else {
+            } 
+            else {
                 setErrorMessage('')
             }
         } else {
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required!`);
-            } else {
+            } 
+            else {
                 setErrorMessage('');
             }
         }
@@ -42,7 +45,7 @@ export default function Contact() {
         if (e.target.name === 'address') {
             address = e.target.value
         }
-        if (e.targer.name === 'subject') {
+        if (e.target.name === 'subject') {
             subject = e.target.value
         }
     };
@@ -54,7 +57,18 @@ export default function Contact() {
         event.preventDefault();
         await postSubmission();
         alert(`
-        Your Message: Hi Crysta, My name is ${name}. My contact informatin is email: ${email}, phone: ${phone}, and address: ${address}. the subject of my message is: ${subject}. Message: ${message}.
+        Your Message:
+        Hi Crysta, My name is ${name}.
+
+        My contact informatin is 
+            email: ${email},
+            phone: ${phone},
+            address: ${address}.
+
+        Subject: ${subject}.
+        Message: ${message}.
+
+        You may press OK and refresh the page.
         `);
     };
 
@@ -70,8 +84,6 @@ export default function Contact() {
             console.log(err)
         }
     };
-
-    //not catching the subject in formspark.
 
     return (
         <section className='contactCard'>
@@ -97,23 +109,65 @@ export default function Contact() {
                 <form className="contactForm" id="contact-form" onSubmit={submitForm}>
                     <div className='name-emailWrapper'>
                         <label htmlFor="name"></label>
-                        <input className='halfInput' type="text" name="name" defaultValue={name} onInput={handleChange} placeholder='Name:' />
+                        <input
+                            className='halfInput'
+                            type="text" name="name"
+                            defaultValue={name}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Name:'
+                        />
                         <label htmlFor="email"></label>
-                        <input className='halfInput' type="email" name="email" defaultValue={email} onInput={handleChange} placeholder='Email:' />
+                        <input
+                            className='halfInput'
+                            type="email" name="email"
+                            defaultValue={email}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Email:'
+                        />
                     </div>
                     <div className='phone-addressWrapper'>
                         <label htmlFor="phone"></label>
-                        <input className='halfInput' type="tel" name="phone" defaultValue={phone} onInput={handleChange} placeholder='Phone Number:' />
+                        <input
+                            className='halfInput'
+                            type="tel" name="phone"
+                            defaultValue={phone}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Phone Number:'
+                        />
                         <label htmlFor="address"></label>
-                        <input className='halfInput' type="text" name="address" defaultValue={address} onInput={handleChange} placeholder='Address:' />
+                        <input
+                            className='halfInput'
+                            type="text" name="address"
+                            defaultValue={address}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Address:'
+                        />
                     </div>
                     <div className='subjectWrapper'>
                         <label htmlFor="subject"></label>
-                        <input className='fullInput' type="text" name="subject" defaultValue={subject} onInput={handleChange} placeholder='Subject:' />
+                        <input
+                            className='fullInput'
+                            type="text" name="subject"
+                            defaultValue={subject}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Subject:'
+                        />
                     </div>
                     <div className='messageWrapper'>
                         <label htmlFor="message"></label><br />
-                        <textarea className="messageText" name="message" rows="5" defaultValue={message} onInput={handleChange} placeholder='Type your message here...' />
+                        <textarea
+                            className="messageText"
+                            name="message" rows="5"
+                            defaultValue={message}
+                            onChange={handleChange}
+                            onBlur={handleChange}
+                            placeholder='Type your message here...'
+                        />
                     </div>
                     <button className='submitButton' type="submit">Submit</button>
                 </form>

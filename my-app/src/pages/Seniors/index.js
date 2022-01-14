@@ -3,7 +3,7 @@ import React from 'react'
 export default function Seniors() {
     return (
         <div>
-            Seniors Page
+            <h2>SENIORS</h2>
         </div>
     )
 }

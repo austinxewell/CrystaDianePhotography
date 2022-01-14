@@ -3,7 +3,7 @@ import React from 'react'
 export default function Family() {
     return (
         <div>
-            Family Page
+            <h2>FAMILY</h2>
         </div>
     )
 }
