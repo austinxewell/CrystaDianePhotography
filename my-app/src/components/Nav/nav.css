@@ -13,6 +13,7 @@
     padding-top: 2px;
     font-size: 18px;	
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-link:hover{
@@ -20,7 +21,6 @@
 }
 
 .nav-linkActive {
-    border-radius: 5px;
 	padding: 2px 4px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -32,13 +32,14 @@
 }
 
 .nav-linkActiveDropdown {
-    color: var(--primary) !important;
-    background-color: #ddd
+    background-color: var(--light);
+    font-style: italic;
 }
 
 .mainName {
     text-align: center;
 }
+
 
 .dropbtn:hover, .dropbtn:focus {
     font-style: italic;
@@ -52,9 +53,10 @@
 }
 
 .dropdown-content {
+    background-color: var(--secondary) !important;
+    border: solid var(--dark) 1px !important;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -62,16 +64,20 @@
 }
 
 .dropdown-content a {
-    color: black;
+    color: var(--dark);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd
-}
-
 .show {
     display:block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--light);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

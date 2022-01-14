@@ -18,3 +18,43 @@
 .galleryWrapper {
     background-color: var(--background);
 }
+
+.rec.rec-dot {
+    margin-bottom: 20px;
+}
+
+.rec-dot_active {
+    background-color: var(--footerColor) !important;
+    box-shadow: 0 0 1px 3px var(--footerColor) !important;
+}
+
+.rec-dot:focus,
+.rec-dot:hover {
+    box-shadow: 0 0 1px 3px var(--footerColor) !important;
+}
+
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+    background-color: var(--footerColor) !important;
+    box-shadow: 0 0 1px 3px var(--footerColor) !important;
+}
+
+.rec-arrow {
+    background-color: var(--footerColor) !important;
+    transition: all 0.3s ease;
+    font-size: 2.6rem !important;
+    color: white !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    min-width: 3rem !important;
+    line-height: 3rem !important;
+    margin: 10px;
+}
+
+.rec-arrow:hover:not(:disabled) {
+    transform: scale(1.2);
+}
+
+.__react_modal_image__caption {
+    text-shadow: 2px 2px 6px black !important;
+}

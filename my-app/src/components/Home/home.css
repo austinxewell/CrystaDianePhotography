@@ -1,0 +1,63 @@
+.homeWrapper {
+    background-color: var(--background);
+    padding-bottom: 20px;
+}
+
+.homeTitle {
+    text-align: center;
+}
+
+.reviewsTitle {
+    margin-bottom: -26px;
+    
+}
+
+.referenceWrapper {
+    text-align: center;
+}
+
+.referenceCardWrapper {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--secondary);
+    width: 900px;
+}
+
+.references {
+    margin-left: auto;
+    list-style: none;
+    font-size: 18px;
+    width: 180px;
+    float: left;
+}
+
+.referenceName {
+    cursor: pointer;
+}
+
+.referenceName:hover {
+    font-style: italic;
+}
+
+.referenceImg {
+    object-fit: cover;
+    width:350px;
+    height:500px;
+}
+
+.referenceTextWrapper {
+    float: right;
+}
+
+.referenceTitleName {
+    font-size: 25px;
+    text-decoration: underline black 2px;
+}
+
+.referenceText {
+    margin-left: 10px;
+    font-size: 18px;
+    width: 350px;
+}
+

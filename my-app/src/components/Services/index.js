@@ -20,7 +20,7 @@ export default function Services() {
                         <li className='collectionListItem'>Proposal</li>
                         <li className='collectionListItem'>Engagements</li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/Weddings">
                         <span className='collectionDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -44,7 +44,7 @@ export default function Services() {
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
                         <li className='collectionLeftListItem'>20+ Edited Photos </li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/Maternity">
                         <span className='collectionLeftDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -78,7 +78,7 @@ export default function Services() {
                         <li className='collectionListItem'>35-45 Minutes</li>
                         <li className='collectionListItem'>15+ Edited Photos</li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/IndividualHeadshots">
                         <span className='collectionDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -102,7 +102,7 @@ export default function Services() {
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
                         <li className='collectionLeftListItem'>30+ Edited Photos </li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/Family">
                         <span className='collectionLeftDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -132,7 +132,7 @@ export default function Services() {
                         <li className='collectionListItem'>35-45 Minutes</li>
                         <li className='collectionListItem'>15+ Edited Photos</li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/Couples">
                         <span className='collectionDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -156,7 +156,7 @@ export default function Services() {
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
                         <li className='collectionLeftListItem'>15+ Edited Photos </li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/Seniors">
                         <span className='collectionLeftDetails'>More Details</span>
                     </NavLink>
                     <br />
@@ -190,7 +190,7 @@ export default function Services() {
                         <li className='collectionListItem'>35-45 Minutes</li>
                         <li className='collectionListItem'>15+ Edited Photos</li>
                     </ul>
-                    <NavLink exact to="/Contact">
+                    <NavLink exact to="/SchoolDances">
                         <span className='collectionDetails'>More Details</span>
                     </NavLink>
                     <br />

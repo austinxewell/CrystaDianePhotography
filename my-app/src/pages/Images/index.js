@@ -1,23 +1,22 @@
 import React from 'react'
-import Item from '../Item';
+import ModalImage from 'react-modal-image'
 
 export default Image = (props) => {
     const {
         imgAlt,
         imgLinkName,
-        openModal,
         modalInfo
     } = props;
 
-    function setState() {
-        openModal(true);
-        modalInfo([imgAlt, imgLinkName])
-    }
-
     return (
             <div className="imageCard"
-                onClick={() => setState()}>
-                <img className='galleryImg' src={require(`../../assets/galleryImages/${imgLinkName}.jpg`)} alt={`${imgAlt}`}></img>
+                onClick={() => modalInfo([imgAlt, imgLinkName])}>
+                    <ModalImage 
+                        small={require(`../../assets/galleryImages/${imgLinkName}.jpg`)}
+                        large={require(`../../assets/galleryImages/${imgLinkName}.jpg`)}
+                        className='galleryImg'
+                        alt={`${imgAlt}`}
+                    />
             </div>
     )
 }

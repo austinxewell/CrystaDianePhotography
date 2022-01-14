@@ -8,6 +8,7 @@
   --quartinary: #ad704f;
   --background: #E3E2DE;
   --borderColor: #858568;
+  --footerColor: rgb(31,31,31);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -49,8 +50,13 @@ h2 {
   margin-top: 0;
   margin-bottom: 0px;
   font-family: 'Josefin Slab', serif;
+  text-align: center;
 }
 
 h3 {
   font-size: 40px;
+}
+
+.__react_modal_image__header {
+  background: none !important;
 }

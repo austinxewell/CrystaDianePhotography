@@ -1,0 +1,23 @@
+[
+    {
+        "referenceName": "Austin",
+        "referenceImgLink": "pic3",
+        "referenceImgAlt": "picture 3",
+        "fullName": "Austin Ewell",
+        "referenceText": "Lorem ipsum THAT IS IN JSON dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
+    },
+    {
+        "referenceName": "Myla",
+        "referenceImgLink": "pic1",
+        "referenceImgAlt": "picture 1",
+        "fullName": "Myla Ewell",
+        "referenceText": "Lorem ipsum THAT IS IN JSON NUMBER 2 dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
+    },
+    {
+        "referenceName": "Sid",
+        "referenceImgLink": "pic2",
+        "referenceImgAlt": "picture 2",
+        "fullName": "Sid Vicious",
+        "referenceText": "Lorem ipsum THAT IS IN JSON NUMBER 3dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
+    }
+]
