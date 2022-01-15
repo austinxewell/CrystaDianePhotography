@@ -65,7 +65,7 @@ export default function Services() {
             {/* Individual/Headshots */}
             <div className='serviceWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='Individual/Headshot Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
+                    <img className='collectionImg' alt='Individual/Headshot Picture' src={require('../../assets/individualHeadshotImages/pic3.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>
