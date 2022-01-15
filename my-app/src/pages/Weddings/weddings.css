@@ -3,7 +3,7 @@
 }
 
 .goldServiceWrapper {
-    border-top: solid #D4AF37 15px;
+    border-top: solid #D4AF37 15px !important;
 }
 
 .goldTitle {
@@ -19,7 +19,7 @@
 
 
 .silverServiceWrapper {
-    border-top: solid #aaa9ad 15px;
+    border-top: solid #aaa9ad 15px !important;
     margin: 0;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .bronzeServiceWrapper {
-    border-top: solid #b08d57 15px;
+    border-top: solid #b08d57 15px !important;
     margin: 0;
 }
 

@@ -8,6 +8,7 @@
 
 .maternityImg {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .maternityTextWrapper {
@@ -18,4 +19,14 @@
     position: absolute;
     bottom: 150px;
     margin-left: -60px;
+}
+
+.packageWrapper {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: var(--secondary);
+    width: 900px;
+    border: solid var(--activeLink) 4px;
+    margin-bottom: 20px;
 }

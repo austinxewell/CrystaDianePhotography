@@ -8,9 +8,9 @@ export default function IndividualHeadshots() {
     return (
         <div className='maternityWrapper'>
             <h2>INDIVIDUAL / HEADSHOTS</h2>
-                       {/* Standard */}
-            <div className='serviceWrapper flex-row'>
-                <div className='collectionWrapper'>
+            {/* Standard */}
+            <div className='serviceWrapper flex-row packageWrapper'>
+                <div className='collectionWrapper '>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/individualHeadshotImages/pic1.JPG')}></img>
                 </div>
                 <div className='collectionText'>
@@ -18,7 +18,7 @@ export default function IndividualHeadshots() {
 
                     <p className='collectionPrice'>Price: $120</p>
                     <ul className='collectionList'>
-                    <li className='collectionLeftListItem weddingListItem'>45-60 minutes</li>
+                        <li className='collectionLeftListItem weddingListItem'>45-60 minutes</li>
                         <li className='collectionLeftListItem weddingListItem'>20+ edited photos</li>
                         <li className='collectionListItem weddingListItem'>Online gallery with full print rights</li>
                     </ul>
@@ -29,7 +29,7 @@ export default function IndividualHeadshots() {
             </div>
 
             {/* Mini */}
-            <div className='serviceWrapper flex-row'>
+            <div className='serviceWrapper flex-row packageWrapper'>
                 <div className='collectionLeftText weddingCollectionLeftText'>
                     <h3 className='collectionLeftTitle silverTitle'>MINI</h3>
                     <br />

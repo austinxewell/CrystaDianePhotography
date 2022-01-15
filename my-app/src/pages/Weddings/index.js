@@ -10,7 +10,7 @@ export default function Weddings() {
             <h2>WEDDINGS</h2>
 
             {/* Gold */}
-            <div className='serviceWrapper goldServiceWrapper flex-row'>
+            <div className='serviceWrapper goldServiceWrapper packageWrapper flex-row'>
                 <div className='collectionWrapper'>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
@@ -32,7 +32,7 @@ export default function Weddings() {
             </div>
 
             {/* Silver */}
-            <div className='serviceWrapper silverServiceWrapper flex-row'>
+            <div className='serviceWrapper silverServiceWrapper packageWrapper flex-row'>
                 <div className='collectionLeftText weddingCollectionLeftText'>
                     <h3 className='collectionLeftTitle silverTitle'>SILVER</h3>
                     <br />
@@ -53,7 +53,7 @@ export default function Weddings() {
             </div>
 
             {/* Bronze */}
-            <div className='serviceWrapper bronzeServiceWrapper flex-row'>
+            <div className='serviceWrapper bronzeServiceWrapper packageWrapper flex-row'>
                 <div className='collectionWrapper'>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/weddingImages/pic3.JPG')}></img>
                 </div>
