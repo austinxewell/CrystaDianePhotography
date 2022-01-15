@@ -31,7 +31,7 @@ export default function IndividualHeadshots() {
             {/* Mini */}
             <div className='serviceWrapper flex-row packageWrapper'>
                 <div className='collectionLeftText weddingCollectionLeftText'>
-                    <h3 className='collectionLeftTitle silverTitle'>MINI</h3>
+                    <h3 className='collectionLeftTitle silverTitle'>MINIATURE</h3>
                     <br />
                     <p className='collectionLeftPrice'>Price: $65</p>
                     <br />

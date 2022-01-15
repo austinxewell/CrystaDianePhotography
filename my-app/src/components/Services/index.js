@@ -19,6 +19,7 @@ export default function Services() {
                     <ul className='collectionList'>
                         <li className='collectionListItem'>Proposal</li>
                         <li className='collectionListItem'>Engagements</li>
+                        <li className='collectionListItem'>Multiple Packages</li>
                     </ul>
                     <NavLink exact to="/Weddings">
                         <span className='collectionDetails'>More Details</span>
@@ -73,7 +74,7 @@ export default function Services() {
                         <br />
                         HEADSHOTS
                     </h3>
-                    <p className='collectionPrice'>Price: $120</p>
+                    <p className='collectionPrice'>Price: $65+</p>
                     <ul className='collectionList'>
                         <li className='collectionListItem'>35-45 Minutes</li>
                         <li className='collectionListItem'>15+ Edited Photos</li>
@@ -96,11 +97,11 @@ export default function Services() {
                 <div className='collectionLeftText'>
                     <h3 className='collectionLeftTitle'>FAMILY</h3>
                     <br />
-                    <p className='collectionLeftPrice'>Price: $150</p>
+                    <p className='collectionLeftPrice'>Price: $90+</p>
                     <br />
                     <ul className='collectionLeftList'>
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
-                        <li className='collectionLeftListItem'>30+ Edited Photos </li>
+                        <li className='collectionLeftListItem'>20+ Edited Photos </li>
                     </ul>
                     <NavLink exact to="/Family">
                         <span className='collectionLeftDetails'>More Details</span>
@@ -116,21 +117,21 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='collectionLeftWrapper'>
-                    <img className='collectionLeftImg' alt='Family Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
+                    <img className='collectionLeftImg' alt='Family Picture' src={require('../../assets/familyImages/pic1.JPG')}></img>
                 </div>
             </div>
 
             {/* Couples */}
             <div className='serviceWrapper packageWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='Couples Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
+                    <img className='collectionImg' alt='Couples Picture' src={require('../../assets/coupleImages/pic3.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>COUPLES</h3>
-                    <p className='collectionPrice'>Price: $120</p>
+                    <p className='collectionPrice'>Price: $75+</p>
                     <ul className='collectionList'>
-                        <li className='collectionListItem'>35-45 Minutes</li>
-                        <li className='collectionListItem'>15+ Edited Photos</li>
+                        <li className='collectionListItem'>45-60 Minutes</li>
+                        <li className='collectionListItem'>25+ Edited Photos</li>
                     </ul>
                     <NavLink exact to="/Couples">
                         <span className='collectionDetails'>More Details</span>
@@ -154,7 +155,7 @@ export default function Services() {
                     <br />
                     <ul className='collectionLeftList'>
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
-                        <li className='collectionLeftListItem'>15+ Edited Photos </li>
+                        <li className='collectionLeftListItem'>25+ Edited Photos </li>
                     </ul>
                     <NavLink exact to="/Seniors">
                         <span className='collectionLeftDetails'>More Details</span>
@@ -170,14 +171,14 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='collectionLeftWrapper'>
-                    <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
+                    <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/seniorImages/pic3.JPG')}></img>
                 </div>
             </div>
 
             {/* School Dance */}
             <div className='serviceWrapper packageWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='School Dance Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
+                    <img className='collectionImg' alt='School Dance Picture' src={require('../../assets/schoolDanceImages/pic1.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>
@@ -185,9 +186,9 @@ export default function Services() {
                         <br />
                         DANCE
                     </h3>
-                    <p className='collectionPrice'>Price: $120</p>
+                    <p className='collectionPrice'>Price: $50+</p>
                     <ul className='collectionList'>
-                        <li className='collectionListItem'>35-45 Minutes</li>
+                        <li className='collectionListItem'>15-60 Minutes</li>
                         <li className='collectionListItem'>15+ Edited Photos</li>
                     </ul>
                     <NavLink exact to="/SchoolDances">
