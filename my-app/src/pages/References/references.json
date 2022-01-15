@@ -1,23 +1,37 @@
 [
     {
-        "referenceName": "Austin",
-        "referenceImgLink": "pic3",
-        "referenceImgAlt": "picture 3",
-        "fullName": "Austin Ewell",
-        "referenceText": "Lorem ipsum THAT IS IN JSON dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
-    },
-    {
-        "referenceName": "Myla",
+        "referenceName": "Kieonah",
         "referenceImgLink": "pic1",
-        "referenceImgAlt": "picture 1",
-        "fullName": "Myla Ewell",
-        "referenceText": "Lorem ipsum THAT IS IN JSON NUMBER 2 dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
+        "referenceImgAlt": "Kienoh Reference Picture",
+        "fullName": "Kieonah",
+        "referenceText": "Crysta is so fun and easy to work with! She’s very professional, affordable, she makes her sessions very personal with her clients. She’s punctual, her photos are good value, and quality. I recommend working with Crysta at any opportunity."
     },
     {
-        "referenceName": "Sid",
+        "referenceName": "Logan",
         "referenceImgLink": "pic2",
-        "referenceImgAlt": "picture 2",
-        "fullName": "Sid Vicious",
-        "referenceText": "Lorem ipsum THAT IS IN JSON NUMBER 3dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Ultrices tincidunt arcu non sodales neque sodales ut. Etiam dignissim diam quis enim lobortis scelerisque. Nunc sed augue lacus viverra."
+        "referenceImgAlt": "Logan Reference Picture",
+        "fullName": "Logan",
+        "referenceText": "We had Crysta do our maternity photos. They are amazing. We got them all printed out to put all around our house. We had to cancel the first day we scheduled to do it due to weather. She was so understanding and we picked a new date. The location was perfect, and her thought process behind helping us get the pictures we wanted was outstanding. Crysta really cares about her clients and her profession!"
+    },
+    {
+        "referenceName": "Carrie",
+        "referenceImgLink": "pic3",
+        "referenceImgAlt": "Carrie Reference Picture",
+        "fullName": "Carrie",
+        "referenceText": "Ugh. These are perfect. First family photos since Grantie was born turned out amazing! Crysta did such a great job capturing my loves!"
+    },
+    {
+        "referenceName": "Aubrie",
+        "referenceImgLink": "pic4",
+        "referenceImgAlt": "Aubrie Reference Picture",
+        "fullName": "Aubrie",
+        "referenceText": "This was my very first professional photoshoot I have ever done. It was the most fun and amazing experience I have ever had. I came into this nervous but I got my photos back and I’m in love and it definitely makes me want to continue this!"
+    },
+    {
+        "referenceName": "Davisha",
+        "referenceImgLink": "pic5",
+        "referenceImgAlt": "Davisha Reference Picture",
+        "fullName": "Davisha",
+        "referenceText": "I would highly recommend Crysta as all my photos came out so beautiful! I can’t even choose a picture to post because I love them all. She is very great with kids which made the pictures more live and amazing. Thank you so much!"
     }
 ]

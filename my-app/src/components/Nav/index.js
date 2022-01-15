@@ -12,11 +12,7 @@ export default function Nav() {
                 <NavLink exact to="/" className='nav-link' activeClassName='nav-linkActive'>Home</NavLink>
                 <NavLink exact to="/mediagallery" className='nav-link' activeClassName='nav-linkActive'>Media Gallery</NavLink>
                 <div className='mainName'>
-                    <h1>
-                        CRYSTA DIANE
-                        <br />
-                        PHOTOGRAPHY
-                    </h1>
+                    <img className='headerImg' src={require('../../assets/backgroundImages/pic2.png')}></img>
                 </div>
                 <div class="dropdown">
                     <span class="nav-link dropBtn">Services</span>

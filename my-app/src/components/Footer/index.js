@@ -16,11 +16,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='mainNameFooter'>
-                <h1>
-                    CRYSTA DIANE
-                    <br />
-                    PHOTOGRAPHY
-                </h1>
+            <img className='headerImg' src={require('../../assets/backgroundImages/pic3.png')}></img>
             </div>
             <div className="copyright">
                 <div className='copyrightText'>

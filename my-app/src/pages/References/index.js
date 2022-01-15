@@ -11,7 +11,7 @@ export default function References({reference}) {
         <section className='referenceInfoWrapper flex-row'>
             <img
                 className='referenceImg'
-                src={require(`../../assets/galleryImages/${imgLink}.jpg`)}
+                src={require(`../../assets/referenceImages/${imgLink}.JPG`)}
                 alt={imgAlt}
             ></img>
             <div className='referenceTextWrapper'>

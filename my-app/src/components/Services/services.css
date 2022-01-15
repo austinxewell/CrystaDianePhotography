@@ -18,11 +18,12 @@
 
 .collectionText {
     position: relative;
-    width: 30%;
+    width: 340px;
 }
 
 .collectionTitle {
     margin-left: 20px;
+    padding-right: 10px;
 }
 
 .collectionPrice {

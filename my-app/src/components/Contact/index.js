@@ -5,9 +5,9 @@ import './contact.css'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export default function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', phone: '', address: '', subject: '', message: '' });
+    const [formState, setFormState] = useState({ fullName: '', email: '', phone: '', address: '', subject: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
-    var { name, email, phone, address, subject, message } = formState;
+    var { fullName, email, phone, address, subject, message } = setFormState;
 
     const handleChange = (e) => {
         if (e.target.name === 'email') {
@@ -37,7 +37,7 @@ export default function Contact() {
             }
         }
         if (e.target.name === 'name') {
-            name = e.target.value
+            fullName = e.target.value
         }
         if (e.target.name === 'message') {
             message = e.target.value
@@ -48,7 +48,19 @@ export default function Contact() {
         if (e.target.name === 'subject') {
             subject = e.target.value
         }
+        
+
+    // const { name, value } = e.target;
+
+    // setFormState({
+    //   ...formState,
+    //   [name]: value,
+    // });
+
+console.log(fullName)
+
     };
+
 
     const formId = 'H1PvHOWb';
     const formSparkUrl = `https://submit-form.com/${formId}`
@@ -58,23 +70,22 @@ export default function Contact() {
         await postSubmission();
         alert(`
         Your Message:
-        Hi Crysta, My name is ${name}.
+        Hi Crysta, My name is ${fullName}.
 
-        My contact informatin is 
-            email: ${email},
-            phone: ${phone},
-            address: ${address}.
+        My contact information is 
+            Email: ${email}
+            Phone: ${phone}
+            Address: ${address}
 
-        Subject: ${subject}.
-        Message: ${message}.
-
-        You may press OK and refresh the page.
-        `);
+        Subject: ${subject}
+        Message: ${message}
+        `)
+        window.location.reload()
     };
 
     const postSubmission = async () => {
         const payload = {
-            ...{ 'name': name, 'email': email, 'phone': phone, 'address': address, 'subject': subject, 'message': message },
+            ...{ 'name': fullName, 'email': email, 'phone': phone, 'address': address, 'subject': subject, 'message': message },
         };
 
         try {
@@ -111,19 +122,21 @@ export default function Contact() {
                         <label htmlFor="name"></label>
                         <input
                             className='halfInput'
-                            type="text" name="name"
-                            defaultValue={name}
+                            type="text"
+                            name="name"
+                            defaultValue={fullName}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Name:'
                         />
                         <label htmlFor="email"></label>
                         <input
                             className='halfInput'
-                            type="email" name="email"
+                            type="email"
+                            name="email"
                             defaultValue={email}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Email:'
                         />
                     </div>
@@ -131,19 +144,21 @@ export default function Contact() {
                         <label htmlFor="phone"></label>
                         <input
                             className='halfInput'
-                            type="tel" name="phone"
+                            type="tel"
+                            name="phone"
                             defaultValue={phone}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Phone Number:'
                         />
                         <label htmlFor="address"></label>
                         <input
                             className='halfInput'
-                            type="text" name="address"
+                            type="text"
+                            name="address"
                             defaultValue={address}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Address:'
                         />
                     </div>
@@ -151,10 +166,11 @@ export default function Contact() {
                         <label htmlFor="subject"></label>
                         <input
                             className='fullInput'
-                            type="text" name="subject"
+                            type="text"
+                            name="subject"
                             defaultValue={subject}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Subject:'
                         />
                     </div>
@@ -165,7 +181,7 @@ export default function Contact() {
                             name="message" rows="5"
                             defaultValue={message}
                             onChange={handleChange}
-                            onBlur={handleChange}
+                            // onBlur={handleChange}
                             placeholder='Type your message here...'
                         />
                     </div>

@@ -6,7 +6,7 @@ import references from '../../pages/References/references.json'
 export default function Home() {
     const [reference, setCurrentReference] = useState({
         fullName: 'Crysta Diane',
-        referenceText: 'Hi!, My name is Crysta Diane. Here is some quick information about me and the importance of references. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi tempus. Nulla porttitor massa id neque aliquam vestibulum morbi blandit.',
+        referenceText: 'Reviews not only mean the world to me as a creative, but also can have a large impact on small businesses. A positive, honest review can make or break a potential decision for a prospective client. As a thank you for contributing to my small business by leaving a review, you will receive an automatic 20% discount on a future session. Weddings excluded). You can leave a review on social media, Google, or send me an email!',
         referenceImgLink: 'pic4',
         referenceImgAlt: 'Crysta Diane Photo'
     })

@@ -1,0 +1,49 @@
+.weddingServiceWrapper {
+    background-color: var(--background);
+}
+
+.weddingCollectionLeftText {
+    width: 290px;
+}
+
+.goldServiceWrapper {
+    border-top: solid #D4AF37 15px;
+}
+
+.goldTitle {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.weddingListItem {
+    font-size: 20px;
+}
+
+.silverServiceWrapper {
+    border-top: solid #aaa9ad 15px;
+    margin: 0;
+}
+
+.silverTitle {
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weddingLeftInquire {
+    float: right;
+    position: relative;
+    bottom: -315px;
+    margin-right: -320px;
+}
+
+.bronzeServiceWrapper {
+    border-top: solid #b08d57 15px;
+    margin: 0;
+}
+
+.bronzeTitle {
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
