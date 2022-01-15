@@ -8,7 +8,7 @@ export default function Maternity() {
     return (
         <div className='maternityWrapper'>
             <h2>MATERNITY</h2>
-            <div className='referenceCardWrapper maternityCardWrapper  packageWrapper'>
+            <div className='referenceCardWrapper maternityCardWrapper packageWrapper'>
                 <section className='referenceInfoWrapper flex-row weddingInfoWrapper'>
                     <img
                         className='referenceImg maternityImg'
