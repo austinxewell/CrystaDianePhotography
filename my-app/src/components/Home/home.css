@@ -64,3 +64,16 @@
     width: 350px;
 }
 
+.referenceNameActive {
+    color: blue;
+}
+
+.referenceNameActive {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.referenceNameActive:hover{
+    font-style: italic;
+}
+

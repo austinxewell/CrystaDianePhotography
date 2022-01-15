@@ -7,11 +7,12 @@ import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 export default function Contact() {
     const [formState, setFormState] = useState({ fullName: '', email: '', phone: '', address: '', subject: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
-    var { fullName, email, phone, address, subject, message } = setFormState;
+    var { fullName, email, phone, address, subject, message } = formState;
 
     const handleChange = (e) => {
         if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
+            const isValid = true
+            // validateEmail(e.target.value);
             email = e.target.value
             if (!isValid) {
                 setErrorMessage('Your email is invalid!');
@@ -20,7 +21,8 @@ export default function Contact() {
                 setErrorMessage('');
             }
         } else if (e.target.name === 'phone') {
-            const isValid = validatePhoneNumber(e.target.value);
+            const isValid = true
+            // validatePhoneNumber(e.target.value);
             phone = e.target.value
             if (!isValid) {
                 setErrorMessage('Your phone number is invalid!');
@@ -48,17 +50,6 @@ export default function Contact() {
         if (e.target.name === 'subject') {
             subject = e.target.value
         }
-        
-
-    // const { name, value } = e.target;
-
-    // setFormState({
-    //   ...formState,
-    //   [name]: value,
-    // });
-
-console.log(fullName)
-
     };
 
 
@@ -126,7 +117,6 @@ console.log(fullName)
                             name="name"
                             defaultValue={fullName}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Name:'
                         />
                         <label htmlFor="email"></label>
@@ -136,7 +126,6 @@ console.log(fullName)
                             name="email"
                             defaultValue={email}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Email:'
                         />
                     </div>
@@ -148,7 +137,6 @@ console.log(fullName)
                             name="phone"
                             defaultValue={phone}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Phone Number:'
                         />
                         <label htmlFor="address"></label>
@@ -158,7 +146,6 @@ console.log(fullName)
                             name="address"
                             defaultValue={address}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Address:'
                         />
                     </div>
@@ -170,7 +157,6 @@ console.log(fullName)
                             name="subject"
                             defaultValue={subject}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Subject:'
                         />
                     </div>
@@ -181,7 +167,6 @@ console.log(fullName)
                             name="message" rows="5"
                             defaultValue={message}
                             onChange={handleChange}
-                            // onBlur={handleChange}
                             placeholder='Type your message here...'
                         />
                     </div>

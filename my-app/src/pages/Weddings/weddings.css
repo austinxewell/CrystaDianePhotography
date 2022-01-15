@@ -2,10 +2,6 @@
     background-color: var(--background);
 }
 
-.weddingCollectionLeftText {
-    width: 290px;
-}
-
 .goldServiceWrapper {
     border-top: solid #D4AF37 15px;
 }
@@ -16,8 +12,11 @@
 }
 
 .weddingListItem {
+    width: 340px;
     font-size: 20px;
+    margin: 0;
 }
+
 
 .silverServiceWrapper {
     border-top: solid #aaa9ad 15px;
@@ -34,7 +33,7 @@
     float: right;
     position: relative;
     bottom: -315px;
-    margin-right: -320px;
+    margin-right: -420px;
 }
 
 .bronzeServiceWrapper {

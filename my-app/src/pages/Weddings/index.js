@@ -8,6 +8,7 @@ export default function Weddings() {
     return (
         <div className='weddingServiceWrapper'>
             <h2>WEDDINGS</h2>
+
             {/* Gold */}
             <div className='serviceWrapper goldServiceWrapper flex-row'>
                 <div className='collectionWrapper'>
@@ -39,8 +40,8 @@ export default function Weddings() {
                     <br />
                     <ul className='collectionLeftList'>
                         <li className='collectionLeftListItem weddingListItem'>6 hours of wedding day coverage</li>
-                        <li className='collectionLeftListItem weddingListItem'>1.5 hour engagement/bridal/formal session</li>
-                        <li className='collectionListItem weddingListItem'>Editing & online delivery of all images</li>
+                        <li className='collectionLeftListItem weddingListItem'>1.5 hour engagement, bridal, or formal session</li>
+                        <li className='collectionListItem weddingListItem'>Editing &#38; online delivery of all images</li>
                         <li className='collectionListItem weddingListItem'>Flashdrive of all images</li>
                     </ul>
                     <NavLink exact to="/Contact">
@@ -71,42 +72,42 @@ export default function Weddings() {
                     </NavLink>
                 </div>
             </div>
-                <div className='card-container'>
-                    <a className='flex-row'>
-                        <div className='imageCard'>
-                            <ModalImage
-                                small={require(`../../assets/weddingImages/pic4.JPG`)}
-                                large={require(`../../assets/weddingImages/pic4.JPG`)}
-                                className='galleryImg'
-                                alt='pic1'
-                            />
-                        </div>
-                        <div className='imageCard'>
-                            <ModalImage
-                                small={require(`../../assets/weddingImages/pic5.JPG`)}
-                                large={require(`../../assets/weddingImages/pic5.JPG`)}
-                                className='galleryImg'
-                                alt='pic1'
-                            />
-                        </div>
-                        <div className='imageCard'>
-                            <ModalImage
-                                small={require(`../../assets/weddingImages/pic6.JPG`)}
-                                large={require(`../../assets/weddingImages/pic6.JPG`)}
-                                className='galleryImg'
-                                alt='pic1'
-                            />
-                        </div>
-                        <div className='imageCard'>
-                            <ModalImage
-                                small={require(`../../assets/weddingImages/pic7.JPG`)}
-                                large={require(`../../assets/weddingImages/pic7.JPG`)}
-                                className='galleryImg'
-                                alt='pic1'
-                            />
-                        </div>
-                    </a>
-                </div>
+            <div className='card-container'>
+                <a className='flex-row'>
+                    <div className='imageCard'>
+                        <ModalImage
+                            small={require(`../../assets/weddingImages/pic4.JPG`)}
+                            large={require(`../../assets/weddingImages/pic4.JPG`)}
+                            className='galleryImg'
+                            alt='pic1'
+                        />
+                    </div>
+                    <div className='imageCard'>
+                        <ModalImage
+                            small={require(`../../assets/weddingImages/pic5.JPG`)}
+                            large={require(`../../assets/weddingImages/pic5.JPG`)}
+                            className='galleryImg'
+                            alt='pic1'
+                        />
+                    </div>
+                    <div className='imageCard'>
+                        <ModalImage
+                            small={require(`../../assets/weddingImages/pic6.JPG`)}
+                            large={require(`../../assets/weddingImages/pic6.JPG`)}
+                            className='galleryImg'
+                            alt='pic1'
+                        />
+                    </div>
+                    <div className='imageCard'>
+                        <ModalImage
+                            small={require(`../../assets/weddingImages/pic7.JPG`)}
+                            large={require(`../../assets/weddingImages/pic7.JPG`)}
+                            className='galleryImg'
+                            alt='pic1'
+                        />
+                    </div>
+                </a>
+            </div>
         </div>
     )
 }

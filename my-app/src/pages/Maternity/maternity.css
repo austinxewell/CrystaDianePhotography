@@ -1,0 +1,21 @@
+.maternityWrapper {
+    background-color: var(--background);
+}
+
+.maternityCardWrapper {
+    width: 800px;
+}
+
+.maternityImg {
+    margin-left: 20px;
+}
+
+.maternityTextWrapper {
+    margin-left: 20px;
+}
+
+.maternityInquire {
+    position: absolute;
+    bottom: 150px;
+    margin-left: -60px;
+}

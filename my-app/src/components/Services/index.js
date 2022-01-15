@@ -11,7 +11,7 @@ export default function Services() {
             {/* Wedding Service */}
             <div className='serviceWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/serviceImages/Wedding/pic1.jpg')}></img>
+                    <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/weddingImages/pic7.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>WEDDINGS</h3>
@@ -42,7 +42,7 @@ export default function Services() {
                     <br />
                     <ul className='collectionLeftList'>
                         <li className='collectionLeftListItem'>45-60 Minutes</li>
-                        <li className='collectionLeftListItem'>20+ Edited Photos </li>
+                        <li className='collectionLeftListItem'>30+ Edited Photos </li>
                     </ul>
                     <NavLink exact to="/Maternity">
                         <span className='collectionLeftDetails'>More Details</span>
@@ -58,14 +58,14 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='collectionLeftWrapper'>
-                    <img className='collectionLeftImg' alt='Maternity Picture' src={require('../../assets/serviceImages/Maternity/pic2.jpg')}></img>
+                    <img className='collectionLeftImg' alt='Maternity Picture' src={require('../../assets/maternityImages/pic1.JPG')}></img>
                 </div>
             </div>
 
             {/* Individual/Headshots */}
             <div className='serviceWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='Individual/Headshot Picture' src={require('../../assets/serviceImages/IndividualHeadshots/pic2.JPG')}></img>
+                    <img className='collectionImg' alt='Individual/Headshot Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>
@@ -116,14 +116,14 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='collectionLeftWrapper'>
-                    <img className='collectionLeftImg' alt='Family Picture' src={require('../../assets/serviceImages/Family/pic1.JPG')}></img>
+                    <img className='collectionLeftImg' alt='Family Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
             </div>
 
             {/* Couples */}
             <div className='serviceWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='Couples Picture' src={require('../../assets/serviceImages/Couples/pic3.JPG')}></img>
+                    <img className='collectionImg' alt='Couples Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>COUPLES</h3>
@@ -170,14 +170,14 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='collectionLeftWrapper'>
-                    <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/serviceImages/Seniors/pic3.JPG')}></img>
+                    <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
             </div>
 
             {/* School Dance */}
             <div className='serviceWrapper flex-row'>
                 <div className='collectionWrapper'>
-                    <img className='collectionImg' alt='School Dance Picture' src={require('../../assets/serviceImages/SchoolDance/pic2.JPG')}></img>
+                    <img className='collectionImg' alt='School Dance Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
                 <div className='collectionText'>
                     <h3 className='collectionTitle'>
