@@ -124,7 +124,7 @@ export default function Contact() {
                     <div className='name-emailWrapper'>
                         <label htmlFor="name"></label>
                         <input
-                            className='halfInput'
+                            className='halfInput halfToFullInput'
                             type="text"
                             name="name"
                             defaultValue={fullName}
@@ -134,7 +134,7 @@ export default function Contact() {
                         />
                         <label htmlFor="email"></label>
                         <input
-                            className='halfInput'
+                            className='halfInput halfToFullInput'
                             type="email"
                             name="email"
                             defaultValue={email}
@@ -146,7 +146,7 @@ export default function Contact() {
                     <div className='phone-addressWrapper'>
                         <label htmlFor="phone"></label>
                         <input
-                            className='halfInput'
+                            className='halfInput halfToFullInput'
                             type="tel"
                             name="phone"
                             defaultValue={phone}
@@ -156,7 +156,7 @@ export default function Contact() {
                         />
                         <label htmlFor="address"></label>
                         <input
-                            className='halfInput'
+                            className='halfInput halfToFullInput'
                             type="text"
                             name="address"
                             defaultValue={address}
@@ -168,7 +168,7 @@ export default function Contact() {
                     <div className='subjectWrapper'>
                         <label htmlFor="subject"></label>
                         <input
-                            className='fullInput'
+                            className='fullInput halfToFullInput'
                             type="text"
                             name="subject"
                             defaultValue={subject}
@@ -180,7 +180,7 @@ export default function Contact() {
                     <div className='messageWrapper'>
                         <label htmlFor="message"></label><br />
                         <textarea
-                            className="messageText"
+                            className="messageText  halfToFullInput"
                             name="message" rows="5"
                             defaultValue={message}
                             onChange={handleChange}

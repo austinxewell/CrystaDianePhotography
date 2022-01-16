@@ -58,6 +58,108 @@ h3 {
   font-size: 40px;
 }
 
+.hambergerMenu {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+.headerPhoneImage {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .headerImg {
+    display: none;
+  }
+
+  .headerPhoneImage {
+    display: block;
+    width: 80%;
+  }
+
+  .mainName {
+    background-color: var(--secondary);
+  }
+
+  .hambergerMenu {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+
+  .navBar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .navLink {
+    text-align: center;
+  }
+
+  .dropdown {
+    margin-top: 0 !important;
+    align-items: center;
+  }
+
+  .dropdown-content {
+    background-color: var(--secondary) !important;
+    border: solid var(--dark) 1px !important;
+    display: none;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 12px;
+  }
+
+  #toggle:checked + .navBar {
+    display: block;
+  }
+
+  .rec-pagination {
+    display: none !important;
+  }
+
+  .rec-item-wrapper {
+    margin-left: -0px !important;
+  }
+
+  .contactFooter {
+    margin: auto;
+  }
+  .copyrightText {
+    margin:auto
+  }
+
+  .halfToFullInput {
+    display: block;
+    justify-content: center;
+    width: 95% !important;
+    margin: auto !important;
+    margin-bottom: 20px!important;
+  }
+
+  .name-emailWrapper {
+    margin: 0 !important;
+  }
+
+  .phone-addressWrapper {
+    margin: 0 !important;
+  }
+
+  .contactWrapper {
+    width: 100% !important;
+  }
+}
 
 
 
