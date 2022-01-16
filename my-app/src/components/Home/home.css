@@ -65,15 +65,13 @@
 }
 
 .referenceNameActive {
-    color: blue;
-}
-
-.referenceNameActive {
+    text-decoration: underline;
     cursor: pointer;
     margin-bottom: 10px;
 }
 
 .referenceNameActive:hover{
     font-style: italic;
+    cursor: pointer;
 }
 
