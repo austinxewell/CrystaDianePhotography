@@ -2,18 +2,16 @@ import React, { isValidElement, useState } from 'react';
 import { validateEmail, validatePhoneNumber } from '../utils/helpers';
 import axios from 'axios';
 import './contact.css'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { FaClosedCaptioning, FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export default function Contact() {
     const [formState, setFormState] = useState({ fullName: '', email: '', phone: '', address: '', subject: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     var { fullName, email, phone, address, subject, message } = formState;
 
-    const handleChange = (e) => {
-        if (e.target.name === 'email') {
-            const isValid = true
-            // validateEmail(e.target.value);
-            email = e.target.value
+    const validator = (e) => {
+        if(e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value)
             if (!isValid) {
                 setErrorMessage('Your email is invalid!');
             } 
@@ -21,9 +19,7 @@ export default function Contact() {
                 setErrorMessage('');
             }
         } else if (e.target.name === 'phone') {
-            const isValid = true
-            // validatePhoneNumber(e.target.value);
-            phone = e.target.value
+            const isValid = validatePhoneNumber(e.target.value);
             if (!isValid) {
                 setErrorMessage('Your phone number is invalid!');
             } 
@@ -38,17 +34,32 @@ export default function Contact() {
                 setErrorMessage('');
             }
         }
+    }
+
+    const handleChange = (e) => {
         if (e.target.name === 'name') {
             fullName = e.target.value
+            console.log('Name: ', fullName)
         }
-        if (e.target.name === 'message') {
-            message = e.target.value
+        if (e.target.name === 'email') {
+            email = e.target.value
+            console.log('Name: ', email)
+        }
+        if (e.target.name === 'phone') {
+            phone = e.target.value
+            console.log('phone ', phone)
         }
         if (e.target.name === 'address') {
             address = e.target.value
+            console.log('address: ', address)
         }
         if (e.target.name === 'subject') {
             subject = e.target.value
+            console.log('subject: ', subject)
+        }
+        if (e.target.name === 'message') {
+            message = e.target.value
+            console.log('message: ', message)
         }
     };
 
@@ -57,6 +68,7 @@ export default function Contact() {
     const formSparkUrl = `https://submit-form.com/${formId}`
 
     const submitForm = async (event) => {
+        console.log('fired')
         event.preventDefault();
         await postSubmission();
         alert(`
@@ -117,6 +129,7 @@ export default function Contact() {
                             name="name"
                             defaultValue={fullName}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Name:'
                         />
                         <label htmlFor="email"></label>
@@ -126,6 +139,7 @@ export default function Contact() {
                             name="email"
                             defaultValue={email}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Email:'
                         />
                     </div>
@@ -137,6 +151,7 @@ export default function Contact() {
                             name="phone"
                             defaultValue={phone}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Phone Number:'
                         />
                         <label htmlFor="address"></label>
@@ -146,6 +161,7 @@ export default function Contact() {
                             name="address"
                             defaultValue={address}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Address:'
                         />
                     </div>
@@ -157,6 +173,7 @@ export default function Contact() {
                             name="subject"
                             defaultValue={subject}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Subject:'
                         />
                     </div>
@@ -167,6 +184,7 @@ export default function Contact() {
                             name="message" rows="5"
                             defaultValue={message}
                             onChange={handleChange}
+                            onBlur={validator}
                             placeholder='Type your message here...'
                         />
                     </div>

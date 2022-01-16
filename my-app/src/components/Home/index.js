@@ -17,6 +17,8 @@ export default function Home() {
     //     setActiveReference(!activeReference);
     // }
 
+    console.log(activeReference)
+
     return (
         <div className='homeWrapper'>
             <h2 className='homeTitle'>HOME</h2>
@@ -24,9 +26,21 @@ export default function Home() {
                 <h3 className='reviewsTitle'>•REVIEWS•</h3>
                 <div className='referenceCardWrapper'>
                     <ul className='references'>
+                        <p
+                            className='referenceName'
+                            onClick={() => setCurrentReference({
+                                fullName: "I'm Crysta Diane",
+                                referenceText: 'Reviews not only mean the world to me as a creative, but also can have a large impact on small businesses. A positive, honest review can make or break a potential decision for a prospective client. As a thank you for contributing to my small business by leaving a review, you will receive an automatic 20% discount on a future session (Weddings excluded). You can leave a review on social media, Google, or send me an email!',
+                                referenceImgLink: 'pic6',
+                                referenceImgAlt: 'Crysta Diane Photo'
+                            })}
+                        >CrystaDiane</p>
                         {references.map((reference) => (
                             <li
-                                className={activeReference ? 'referenceNameActive' : 'referenceName'}>
+                                onClick={() => setActiveReference(true)}
+                                className={
+                                    // activeReference ? 'referenceNameActive' :
+                                     'referenceName'}>
                                 <a onClick={() => setCurrentReference(reference)}>
                                     {reference.referenceName}
                                 </a>

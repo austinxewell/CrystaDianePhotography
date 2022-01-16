@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function References({reference}) {
-
     const fullName = reference.fullName
     const Text = reference.referenceText
     const imgLink = reference.referenceImgLink

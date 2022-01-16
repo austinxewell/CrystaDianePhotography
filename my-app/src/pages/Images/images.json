@@ -1,30 +1,170 @@
 [
     {
-        "imgAlt": "Picture 1",
-        "imgLinkName": "pic1"
+        "imgAlt": "Couple Image 1",
+        "imgLinkName": "coupleImages/pic1"
     },
     {
-        "imgAlt": "Picture 2",
-        "imgLinkName": "pic2"
+        "imgAlt": "Couple Image 2",
+        "imgLinkName": "coupleImages/pic2"
     },
     {
-        "imgAlt": "Picture 3",
-        "imgLinkName": "pic3"
+        "imgAlt": "Couple Image 3",
+        "imgLinkName": "coupleImages/pic3"
     },
     {
-        "imgAlt": "Logan and Cassie",
-        "imgLinkName": "pic4"
+        "imgAlt": "Couple Image 4",
+        "imgLinkName": "coupleImages/pic4"
     },
     {
-        "imgAlt": "Picture 5",
-        "imgLinkName": "pic5"
+        "imgAlt": "Couple Image 5",
+        "imgLinkName": "coupleImages/pic5"
     },
     {
-        "imgAlt": "Picture 6",
-        "imgLinkName": "pic6"
+        "imgAlt": "Family Image 1",
+        "imgLinkName": "familyImages/pic1"
     },
     {
-        "imgAlt": "Picture 7",
-        "imgLinkName": "pic7"
+        "imgAlt": "Family Image 2",
+        "imgLinkName": "familyImages/pic2"
+    },
+    {
+        "imgAlt": "Family Image 3",
+        "imgLinkName": "familyImages/pic3"
+    },
+    {
+        "imgAlt": "Family Image 4",
+        "imgLinkName": "familyImages/pic4"
+    },
+    {
+        "imgAlt": "Gallery Image 1",
+        "imgLinkName": "galleryImages/pic1"
+    },
+    {
+        "imgAlt": "Gallery Image 2",
+        "imgLinkName": "galleryImages/pic2"
+    },
+    {
+        "imgAlt": "Gallery Image 3",
+        "imgLinkName": "galleryImages/pic3"
+    },
+    {
+        "imgAlt": "Gallery Image 4",
+        "imgLinkName": "galleryImages/pic4"
+    },
+    {
+        "imgAlt": "Gallery Image 5",
+        "imgLinkName": "galleryImages/pic5"
+    },
+    {
+        "imgAlt": "Gallery Image 1",
+        "imgLinkName": "individualHeadshotImages/pic1"
+    },
+    {
+        "imgAlt": "Gallery Image 2",
+        "imgLinkName": "individualHeadshotImages/pic2"
+    },
+    {
+        "imgAlt": "Gallery Image 3",
+        "imgLinkName": "individualHeadshotImages/pic3"
+    },
+    {
+        "imgAlt": "Maternity Image 1",
+        "imgLinkName": "maternityImages/pic1"
+    },
+    {
+        "imgAlt": "Maternity Image 2",
+        "imgLinkName": "maternityImages/pic2"
+    },
+    {
+        "imgAlt": "Maternity Image 3",
+        "imgLinkName": "maternityImages/pic3"
+    },
+    {
+        "imgAlt": "Maternity Image 4",
+        "imgLinkName": "maternityImages/pic4"
+    },
+    {
+        "imgAlt": "Reference Image 1",
+        "imgLinkName": "referenceImages/pic1"
+    },
+    {
+        "imgAlt": "Reference Image 2",
+        "imgLinkName": "referenceImages/pic2"
+    },
+    {
+        "imgAlt": "Reference Image 3",
+        "imgLinkName": "referenceImages/pic3"
+    },
+    {
+        "imgAlt": "Reference Image 4",
+        "imgLinkName": "referenceImages/pic4"
+    },
+    {
+        "imgAlt": "Reference Image 5",
+        "imgLinkName": "referenceImages/pic5"
+    },
+    {
+        "imgAlt": "School Dance Image 1",
+        "imgLinkName": "schoolDanceImages/pic1"
+    },
+    {
+        "imgAlt": "School Dance Image 2",
+        "imgLinkName": "schoolDanceImages/pic2"
+    },
+    {
+        "imgAlt": "School Dance Image 3",
+        "imgLinkName": "schoolDanceImages/pic3"
+    },
+    {
+        "imgAlt": "School Dance Image 4",
+        "imgLinkName": "schoolDanceImages/pic4"
+    },
+    {
+        "imgAlt": "School Dance Image 5",
+        "imgLinkName": "schoolDanceImages/pic5"
+    },
+    {
+        "imgAlt": "School Dance Image 6",
+        "imgLinkName": "schoolDanceImages/pic6"
+    },
+    {
+        "imgAlt": "Senior Image 1",
+        "imgLinkName": "seniorImages/pic1"
+    },
+    {
+        "imgAlt": "Senior Image 2",
+        "imgLinkName": "seniorImages/pic2"
+    },
+    {
+        "imgAlt": "Senior Image 3",
+        "imgLinkName": "seniorImages/pic3"
+    },
+    {
+        "imgAlt": "School Dance Image 1",
+        "imgLinkName": "weddingImages/pic1"
+    },
+    {
+        "imgAlt": "School Dance Image 2",
+        "imgLinkName": "weddingImages/pic2"
+    },
+    {
+        "imgAlt": "School Dance Image 3",
+        "imgLinkName": "weddingImages/pic3"
+    },
+    {
+        "imgAlt": "School Dance Image 4",
+        "imgLinkName": "weddingImages/pic4"
+    },
+    {
+        "imgAlt": "School Dance Image 5",
+        "imgLinkName": "weddingImages/pic5"
+    },
+    {
+        "imgAlt": "School Dance Image 6",
+        "imgLinkName": "weddingImages/pic6"
+    },
+    {
+        "imgAlt": "School Dance Image 7",
+        "imgLinkName": "weddingImages/pic7"
     }
 ] 

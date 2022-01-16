@@ -12,8 +12,8 @@ export default Image = (props) => {
             <div className="imageCard"
                 onClick={() => modalInfo([imgAlt, imgLinkName])}>
                     <ModalImage 
-                        small={require(`../../assets/galleryImages/${imgLinkName}.jpg`)}
-                        large={require(`../../assets/galleryImages/${imgLinkName}.jpg`)}
+                        small={require(`../../assets/${imgLinkName}.JPG`)}
+                        large={require(`../../assets/${imgLinkName}.JPG`)}
                         className='galleryImg'
                         alt={`${imgAlt}`}
                     />
