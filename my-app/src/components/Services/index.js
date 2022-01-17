@@ -213,8 +213,8 @@ export default function Services() {
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/seniorImages/pic3.JPG')}></img>
                 </div>
-                                {/* Dynamic html for mobile layout. */}
-                                <div className='collectionPhoneText'>
+                {/* Dynamic html for mobile layout. */}
+                <div className='collectionPhoneText'>
                     <h3 className='collectionPhoneTitle'>FAMILY</h3>
                     <p className='collectionPhonePrice'>Price: $100</p>
                     <ul className='collectionPhoneList'>

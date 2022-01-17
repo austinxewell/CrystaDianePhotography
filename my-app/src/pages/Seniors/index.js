@@ -13,7 +13,7 @@ export default function Seniors() {
                 <div className='collectionWrapper '>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/seniorImages/pic1.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText paddingText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>STANDARD</h3></div>
 
                     <p className='collectionPrice'>Price: $100</p>

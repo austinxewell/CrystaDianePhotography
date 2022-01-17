@@ -277,6 +277,32 @@ h3 {
     font-style: italic!important;
 }
 
+/* end of phoneCollection */
+
+  .specificPackageText {
+    padding-bottom: 30px;
+  }
+
+  .specificPackageInquire {
+    bottom: 5px !important;
+  }
+
+  .paddingText {
+    padding-bottom: 30px;
+  }
+
+  .silverPhoneTitle {
+    margin-bottom: -20px;
+  }
+
+  .silverPhonePrice {
+    margin-bottom: -35px;
+  }
+
+  .slashSpan {
+    display: none;
+  }
+
 }
 
 

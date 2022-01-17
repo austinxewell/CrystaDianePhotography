@@ -13,7 +13,7 @@ export default function SchoolDances() {
                 <div className='collectionWrapper '>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/schoolDanceImages/pic5.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText paddingText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>STANDARD</h3></div>
                     <p className='collectionPrice'>Price: $20</p>
                     <p className='collectionPrice'>(Per Couple)</p>

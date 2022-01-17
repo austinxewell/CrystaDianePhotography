@@ -13,9 +13,8 @@ export default function Couples() {
                 <div className='collectionWrapper '>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/coupleImages/pic2.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText paddingText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>STANDARD</h3></div>
-
                     <p className='collectionPrice'>Price: $120</p>
                     <ul className='collectionList'>
                         <li className='collectionLeftListItem weddingListItem'>45-60 minutes</li>
@@ -44,10 +43,27 @@ export default function Couples() {
                     </ul>
                     <NavLink exact to="/Contact">
                         <button className='collectionLeftInquire weddingLeftInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
-                    </NavLink></div>
+                    </NavLink>
+                </div>
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Maternity Picture' src={require('../../assets/coupleImages/pic1.JPG')}></img>
                 </div>
+                {/* Dynamic HTML for mobile Layout */}
+                <div className='collectionPhoneText weddingCollectionLeftText paddingText'>
+                    <h3 className='collectionPhoneTitle silverTitle silverPhoneTitle'>MINIATURE</h3>
+                    <br />
+                    <p className='collectionPhonePrice maternityPriceLeft silverPhonePrice'>Price: $75</p>
+                    <br />
+                    <ul className='collectionPhoneList'>
+                        <li className='collectionPhoneListItem weddingListItem'>20 minutes</li>
+                        <li className='collectionPhoneListItem weddingListItem'>15+ edited photos</li>
+                        <li className='collectionPhoneListItem weddingListItem'>Online gallery with full print rights</li>
+                    </ul>
+                    <NavLink exact to="/Contact">
+                        <button className='collectionPhoneInquire weddingLeftInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                    </NavLink>
+                </div>
+                {/* End of dynamic mobile HTML */}
             </div>
             <div className='card-container'>
                 <a className='flex-row'>

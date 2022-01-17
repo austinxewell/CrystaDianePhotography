@@ -14,7 +14,7 @@ export default function Weddings() {
                 <div className='collectionWrapper'>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/weddingImages/pic1.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText specificPackageText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>GOLD</h3></div>
 
                     <p className='collectionPrice'>Price: $1300</p>
@@ -26,7 +26,7 @@ export default function Weddings() {
                         <li className='collectionListItem weddingListItem'>Canvas print</li>
                     </ul>
                     <NavLink exact to="/Contact">
-                        <button className='collectionInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                        <button className='collectionInquire specificPackageInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
                     </NavLink>
                 </div>
             </div>
@@ -46,10 +46,28 @@ export default function Weddings() {
                     </ul>
                     <NavLink exact to="/Contact">
                         <button className='collectionLeftInquire weddingLeftInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
-                    </NavLink></div>
+                    </NavLink>
+                </div>
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Maternity Picture' src={require('../../assets/weddingImages/pic2.JPG')}></img>
                 </div>
+                {/* Dynamic HTML for mobile layout */}
+                <div className='collectionPhoneText weddingCollectionLeftText paddingText'>
+                    <h3 className='collectionPhoneTitle silverPhoneTitle silverTitle'>SILVER</h3>
+                    <br />
+                    <p className='collectionPhonePrice silverPhonePrice'>Price: $1100</p>
+                    <br />
+                    <ul className='collectionPhoneList'>
+                        <li className='collectionPhoneListItem weddingListItem'>6 hours of wedding day coverage</li>
+                        <li className='collectionPhoneListItem weddingListItem'>1.5 hour engagement, bridal, or formal session</li>
+                        <li className='collectionPhoneListItem weddingListItem'>Editing &#38; online delivery of all images</li>
+                        <li className='collectionPhoneListItem weddingListItem'>Flashdrive of all images</li>
+                    </ul>
+                    <NavLink exact to="/Contact">
+                        <button className='collectionPhoneInquire weddingLeftInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                    </NavLink>
+                </div>
+                {/* End of dynamic mobile HTML */}
             </div>
 
             {/* Bronze */}
@@ -57,7 +75,7 @@ export default function Weddings() {
                 <div className='collectionWrapper'>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/weddingImages/pic3.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText  paddingText'>
                     <div className='bronzeTitleWrapper'><h3 className='collectionTitle bronzeTitle'>BRONZE</h3></div>
 
                     <p className='collectionPrice'>Price: $900</p>

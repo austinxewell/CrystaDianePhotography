@@ -13,7 +13,7 @@ export default function Maternity() {
                 <div className='collectionWrapper '>
                     <img className='collectionImg' alt='Wedding Picture' src={require('../../assets/maternityImages/pic2.JPG')}></img>
                 </div>
-                <div className='collectionText'>
+                <div className='collectionText paddingText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>STANDARD</h3></div>
 
                     <p className='collectionPrice'>Price: $120</p>
