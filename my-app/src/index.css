@@ -169,7 +169,7 @@ h3 {
   }
 
   .collectionInquire {
-    bottom: 5px !important;
+    bottom: 15px !important;
     margin-left: 50px !important;
   }
 
@@ -191,11 +191,11 @@ h3 {
   }
 
   .collectionDetails {
-    bottom: 65px !important;
+    bottom: 75px !important;
   }
 
   .collectionGallery {
-    bottom: 63px !important;
+    bottom: 73px !important;
   }
 
   .collectionLeftText {
@@ -231,7 +231,7 @@ h3 {
 
 .collectionPhoneListItem {
     font-size: 20px!important;
-    margin-left: 20px!important;
+    margin-left: 25px!important;
 }
 
 .collectionPhoneDetails {
@@ -239,7 +239,7 @@ h3 {
     margin-left: 30px!important;
     color: var(--dark)!important;
     position: absolute!important;
-    bottom: 65px !important;
+    bottom: 75px !important;
 }
 
 .collectionPhoneDetails:hover {
@@ -256,7 +256,7 @@ h3 {
     border: solid var(--dark)!important;
     border-radius: 10px!important;
     cursor: pointer!important;
-    bottom: 5px !important;
+    bottom: 15px !important;
     margin-left: 50px !important;
 }
 
@@ -267,7 +267,7 @@ h3 {
 .collectionPhoneGallery {
     font-size: 15px!important;
     position: absolute!important;
-    bottom: 63px !important;
+    bottom: 73px !important;
     margin-left: 180px!important;
     font-family: 'Josefin Slab', serif!important;
     color: var(--dark)!important;
@@ -283,12 +283,8 @@ h3 {
     padding-bottom: 30px;
   }
 
-  .specificPackageInquire {
-    bottom: 5px !important;
-  }
-
   .paddingText {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 
   .silverPhoneTitle {
@@ -301,6 +297,10 @@ h3 {
 
   .slashSpan {
     display: none;
+  }
+
+  .weddingListItem {
+    margin-left: -25px !important;
   }
 
 }

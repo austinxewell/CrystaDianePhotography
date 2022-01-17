@@ -1,5 +1,6 @@
 .servicesWrapper {
     background-color: var(--background);
+    padding-bottom: 1px;
 }
 
 .serviceWrapper {

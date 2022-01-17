@@ -20,7 +20,7 @@ export default function Weddings() {
                     <p className='collectionPrice'>Price: $1300</p>
                     <ul className='collectionList'>
                         <li className='collectionListItem weddingListItem'>8 hours of wedding day coverage with a second shooter</li>
-                        <li className='collectionListItem weddingListItem'> 1.5 hour engagement/bridal/formal session</li>
+                        <li className='collectionListItem weddingListItem'> 1.5 hour engagement, bridal, or formal session</li>
                         <li className='collectionListItem weddingListItem'>Editing & online delivery of all images</li>
                         <li className='collectionListItem weddingListItem'>Flashdrive of all images</li>
                         <li className='collectionListItem weddingListItem'>Canvas print</li>
@@ -81,7 +81,7 @@ export default function Weddings() {
                     <p className='collectionPrice'>Price: $900</p>
                     <ul className='collectionList'>
                         <li className='collectionListItem weddingListItem'>4 hours of wedding day coverage with a second shooter</li>
-                        <li className='collectionListItem weddingListItem'> 1 hour engagement/bridal/formal session</li>
+                        <li className='collectionListItem weddingListItem'> 1 hour engagement, bridal, or formal session</li>
                         <li className='collectionListItem weddingListItem'>Editing & online delivery of all images</li>
                         <li className='collectionListItem weddingListItem'>Flashdrive of all images</li>
                     </ul>
