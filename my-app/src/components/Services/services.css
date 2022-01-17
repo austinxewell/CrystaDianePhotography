@@ -166,3 +166,7 @@ a:link:hover {
     font-style: italic;
 }
 
+.collectionPhoneText {
+    display: none;
+}
+

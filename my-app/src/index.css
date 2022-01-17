@@ -159,6 +159,124 @@ h3 {
   .contactWrapper {
     width: 100% !important;
   }
+
+  .packageWrapper {
+    border: none !important;
+  }
+
+  .collectionImg {
+    width: 90% !important;
+  }
+
+  .collectionInquire {
+    bottom: 5px !important;
+    margin-left: 50px !important;
+  }
+
+  .serviceWrapper {
+    width: 100% !important;
+  }
+
+  .collectionTitle {
+    margin-top: 0px;
+  }
+
+  .collectionWrapper {
+    text-align: center;
+  }
+
+  .collectionLeftWrapper {
+    text-align: center;
+    margin: 0 10px 0 10px !important;
+  }
+
+  .collectionDetails {
+    bottom: 65px !important;
+  }
+
+  .collectionGallery {
+    bottom: 63px !important;
+  }
+
+  .collectionLeftText {
+    display: none;
+  }
+
+  .collectionLeftImg {
+    width: 300px !important;
+  }
+
+  /* phone collection */
+
+  .collectionPhoneText {
+    display: block!important;
+    position: relative !important;
+    width: 340px!important;
+}
+
+.collectionPhoneTitle {
+    margin-left: 20px!important;
+    padding-right: 10px!important;
+}
+
+.collectionPhonePrice {
+    font-size: 30px!important;
+    margin-top: -40px!important;
+    margin-left: 70px!important;
+}
+
+.collectionPhoneList {
+    margin-top: -20px!important;
+}
+
+.collectionPhoneListItem {
+    font-size: 20px!important;
+    margin-left: 20px!important;
+}
+
+.collectionPhoneDetails {
+    font-size: 13px!important;
+    margin-left: 30px!important;
+    color: var(--dark)!important;
+    position: absolute!important;
+    bottom: 65px !important;
+}
+
+.collectionPhoneDetails:hover {
+    font-style: italic!important;
+}
+
+.collectionPhoneInquire {
+    height: 50px!important;
+    width: 200px!important;
+    font-size: 18px!important;
+    color: var(--light)!important;
+    background-color: var(--dark)!important;
+    position: absolute!important;
+    border: solid var(--dark)!important;
+    border-radius: 10px!important;
+    cursor: pointer!important;
+    bottom: 5px !important;
+    margin-left: 50px !important;
+}
+
+.collectionPhoneInquire:hover {
+    font-style: italic!important;
+}
+
+.collectionPhoneGallery {
+    font-size: 15px!important;
+    position: absolute!important;
+    bottom: 63px !important;
+    margin-left: 180px!important;
+    font-family: 'Josefin Slab', serif!important;
+    color: var(--dark)!important;
+}
+
+.collectionPhoneGallery:hover {
+    font-style: italic!important;
+}
+
 }
 
 

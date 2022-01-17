@@ -61,6 +61,26 @@ export default function Services() {
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Maternity Picture' src={require('../../assets/maternityImages/pic1.JPG')}></img>
                 </div>
+                {/* Dynamic html for mobile layout. */}
+                <div className='collectionPhoneText'>
+                    <h3 className='collectionPhoneTitle'>MATERNITY</h3>
+                    <p className='collectionPhonePrice'>Price: $120</p>
+                    <ul className='collectionPhoneList'>
+                        <li className='collectionPhoneListItem'>45-60 Minutes</li>
+                        <li className='collectionPhoneListItem'>30+ Edited Photos</li>
+                    </ul>
+                    <NavLink exact to="/Weddings">
+                        <span className='collectionPhoneDetails'>More Details</span>
+                    </NavLink>
+                    <br />
+                    <NavLink exact to="/mediagallery">
+                        <span className='collectionPhoneGallery'>View Gallery</span>
+                    </NavLink>
+                    <NavLink exact to="/Contact">
+                        <button className='collectionPhoneInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                    </NavLink>
+                </div>
+                {/* end of dynamic mobile HTML */}
             </div>
 
             {/* Individual/Headshots */}
@@ -119,6 +139,26 @@ export default function Services() {
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Family Picture' src={require('../../assets/familyImages/pic1.JPG')}></img>
                 </div>
+                {/* Dynamic html for mobile layout. */}
+                <div className='collectionPhoneText'>
+                    <h3 className='collectionPhoneTitle'>FAMILY</h3>
+                    <p className='collectionPhonePrice'>Price: $90+</p>
+                    <ul className='collectionPhoneList'>
+                        <li className='collectionPhoneListItem'>45-60 Minutes</li>
+                        <li className='collectionPhoneListItem'>20+ Edited Photos</li>
+                    </ul>
+                    <NavLink exact to="/Weddings">
+                        <span className='collectionPhoneDetails'>More Details</span>
+                    </NavLink>
+                    <br />
+                    <NavLink exact to="/mediagallery">
+                        <span className='collectionPhoneGallery'>View Gallery</span>
+                    </NavLink>
+                    <NavLink exact to="/Contact">
+                        <button className='collectionPhoneInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                    </NavLink>
+                </div>
+                {/* end of dynamic mobile HTML */}
             </div>
 
             {/* Couples */}
@@ -173,6 +213,26 @@ export default function Services() {
                 <div className='collectionLeftWrapper'>
                     <img className='collectionLeftImg' alt='Senior Picture' src={require('../../assets/seniorImages/pic3.JPG')}></img>
                 </div>
+                                {/* Dynamic html for mobile layout. */}
+                                <div className='collectionPhoneText'>
+                    <h3 className='collectionPhoneTitle'>FAMILY</h3>
+                    <p className='collectionPhonePrice'>Price: $100</p>
+                    <ul className='collectionPhoneList'>
+                        <li className='collectionPhoneListItem'>45-60 Minutes</li>
+                        <li className='collectionPhoneListItem'>25+ Edited Photos</li>
+                    </ul>
+                    <NavLink exact to="/Weddings">
+                        <span className='collectionPhoneDetails'>More Details</span>
+                    </NavLink>
+                    <br />
+                    <NavLink exact to="/mediagallery">
+                        <span className='collectionPhoneGallery'>View Gallery</span>
+                    </NavLink>
+                    <NavLink exact to="/Contact">
+                        <button className='collectionPhoneInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
+                    </NavLink>
+                </div>
+                {/* end of dynamic mobile HTML */}
             </div>
 
             {/* School Dance */}
