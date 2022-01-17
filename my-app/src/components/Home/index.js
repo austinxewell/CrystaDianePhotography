@@ -33,7 +33,7 @@ export default function Home() {
                 <h3 className='reviewsTitle'>•REVIEWS•</h3>
                 <div className='referenceCardWrapper'>
                     <ul className='references'>
-                        <p className='referenceName' onClick={() => resetCrystaReference()}>CrystaDiane</p>
+                        <p className='referenceName' onClick={() => resetCrystaReference()}>Crysta</p>
                         {references.map((reference, index) => (
                             <li 
                             onClick={() => handleOnClick(index)}
