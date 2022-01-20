@@ -1,0 +1,18 @@
+[
+    {
+        "imgAlt": "home Image 1",
+        "imgLinkName": "homeImages/pic1"
+    },
+    {
+        "imgAlt": "home Image 2",
+        "imgLinkName": "homeImages/pic2"
+    },
+    {
+        "imgAlt": "home Image 3",
+        "imgLinkName": "homeImages/pic3"
+    },
+    {
+        "imgAlt": "home Image 4",
+        "imgLinkName": "homeImages/pic4"
+    }
+]

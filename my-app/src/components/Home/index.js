@@ -2,6 +2,12 @@ import React, { useState } from 'react'
 import './home.css'
 import References from '../../pages/References'
 import references from '../../pages/References/references.json'
+import Carousel from 'react-elastic-carousel'
+
+
+
+import Image from '../../pages/Images'
+import images from '../../pages/HomeCarousel/images.json'
 
 export default function Home() {
     const [activeReference, setActiveReference] = useState(-1)
@@ -28,16 +34,39 @@ export default function Home() {
 
     return (
         <div className='homeWrapper'>
-            <h2 className='homeTitle'>HOME</h2>
+            <section className='header-image-wrapper'>
+                <Carousel
+                    className='home-carousel'
+                    enableAutoPlay={true}
+                    autoPlaySpeed={5000}
+                    enableSwipe={false}
+                    // showArrows={false}
+                    // disableArrowsOnEnd={true}
+                    >
+                    {images.map((image) => (
+                        <img
+                            src={require(`../../assets/${image.imgLinkName}.JPG`)}
+                            alt={image.imgAlt}
+                            className='header-image'>
+                        </img>
+                    ))}
+                </Carousel>
+            </section>
+
+            <div className='text-wrapper'>
+                <p>Hi! I’m Crysta! <br />I enjoy traveling, thrifting and good music. I am so happy that you are here & cannot wait to get to know you!</p>
+            </div>
+
+
             <container className='referenceWrapper'>
                 <h3 className='reviewsTitle'>•REVIEWS•</h3>
                 <div className='referenceCardWrapper'>
                     <ul className='references'>
                         <p className='referenceName' onClick={() => resetCrystaReference()}>Crysta</p>
                         {references.map((reference, index) => (
-                            <li 
-                            onClick={() => handleOnClick(index)}
-                                className={activeReference === index ? 'referenceNameActive' :'referenceName'}>
+                            <li
+                                onClick={() => handleOnClick(index)}
+                                className={activeReference === index ? 'referenceNameActive' : 'referenceName'}>
                                 <a onClick={() => setCurrentReference(reference)}>
                                     {reference.referenceName}
                                 </a>
