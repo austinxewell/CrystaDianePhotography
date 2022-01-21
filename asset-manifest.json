@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/austinxewell/CrystaDianePhotography/static/css/main.02236e4c.css",
-    "main.js": "/austinxewell/CrystaDianePhotography/static/js/main.5ff0dd96.js",
-    "static/js/787.edd59a96.chunk.js": "/austinxewell/CrystaDianePhotography/static/js/787.edd59a96.chunk.js",
-    "static/media/pic2.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic2.7421993ab84ae46d567f.JPG",
-    "static/media/pic3.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic3.ac4a00c1d69a30a36073.JPG",
-    "static/media/pic4.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic4.c6089d92691e1d5cd56d.JPG",
-    "static/media/pic5.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic5.627849a1a29202a42b1c.JPG",
-    "static/media/pic1.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic1.8fdfd01e1c71d54bf096.JPG",
-    "static/media/pic7.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic7.212caf19592d5cb0dce0.JPG",
-    "static/media/pic6.JPG": "/austinxewell/CrystaDianePhotography/static/media/pic6.9ba2044dcc24b8b5ef6d.JPG",
-    "static/media/pic2.png": "/austinxewell/CrystaDianePhotography/static/media/pic2.85d824599a1eb2d4349a.png",
-    "static/media/pic3.png": "/austinxewell/CrystaDianePhotography/static/media/pic3.32f10f7ab1cdb27f9b17.png",
-    "index.html": "/austinxewell/CrystaDianePhotography/index.html",
-    "main.02236e4c.css.map": "/austinxewell/CrystaDianePhotography/static/css/main.02236e4c.css.map",
-    "main.5ff0dd96.js.map": "/austinxewell/CrystaDianePhotography/static/js/main.5ff0dd96.js.map",
-    "787.edd59a96.chunk.js.map": "/austinxewell/CrystaDianePhotography/static/js/787.edd59a96.chunk.js.map"
+    "main.css": "/austinxewell/CrystaDianePhotography/my-app/static/css/main.5c7d6252.css",
+    "main.js": "/austinxewell/CrystaDianePhotography/my-app/static/js/main.a7fb773d.js",
+    "static/js/787.edd59a96.chunk.js": "/austinxewell/CrystaDianePhotography/my-app/static/js/787.edd59a96.chunk.js",
+    "static/media/pic2.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic2.7421993ab84ae46d567f.JPG",
+    "static/media/pic3.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic3.ac4a00c1d69a30a36073.JPG",
+    "static/media/pic4.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic4.c6089d92691e1d5cd56d.JPG",
+    "static/media/pic5.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic5.627849a1a29202a42b1c.JPG",
+    "static/media/pic1.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic1.8fdfd01e1c71d54bf096.JPG",
+    "static/media/pic7.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic7.212caf19592d5cb0dce0.JPG",
+    "static/media/pic6.JPG": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic6.9ba2044dcc24b8b5ef6d.JPG",
+    "static/media/pic2.png": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic2.85d824599a1eb2d4349a.png",
+    "static/media/pic3.png": "/austinxewell/CrystaDianePhotography/my-app/static/media/pic3.32f10f7ab1cdb27f9b17.png",
+    "index.html": "/austinxewell/CrystaDianePhotography/my-app/index.html",
+    "main.5c7d6252.css.map": "/austinxewell/CrystaDianePhotography/my-app/static/css/main.5c7d6252.css.map",
+    "main.a7fb773d.js.map": "/austinxewell/CrystaDianePhotography/my-app/static/js/main.a7fb773d.js.map",
+    "787.edd59a96.chunk.js.map": "/austinxewell/CrystaDianePhotography/my-app/static/js/787.edd59a96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02236e4c.css",
-    "static/js/main.5ff0dd96.js"
+    "static/css/main.5c7d6252.css",
+    "static/js/main.a7fb773d.js"
   ]
 }
