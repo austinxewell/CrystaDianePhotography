@@ -73,6 +73,14 @@ h3 {
   display: none;
 }
 
+.text-wrapper-phone {
+  display: none;
+}
+
+.referencePhoneTextWrapper {
+  display: none;  
+}
+
 @media screen and (max-width: 1000px) {
   .headerImg {
     display: none;
@@ -303,7 +311,94 @@ h3 {
     margin-left: -25px !important;
   }
 
+  .home-background-image {
+    margin-top: 10px;
+  }
+
+  .text-wrapper {
+    display: none;
+  }
+
+  .text-wrapper-phone {
+    display: block !important;
+    flex: wrap;
+    background-color: var(--secondary);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: solid var(--activeLink);   
+  }
+
+  .referenceTextWrapper {
+    display: none !important;
+  }
+
+  .referencePhoneTextWrapper {
+    display: block;
+  }
+
+  .referenceCardWrapper {
+    width: 80% !important;
+  }
+
+  .referencePhoneTitleName {
+    margin: auto;
+    font-size: 25px;
+    text-decoration: underline black 2px;
+  }
+
+  .referencePhoneText {
+    display: flex;
+    flex: wrap;
+    margin: auto;
+    font-size: 18px;
+    width: 70%;
+  }
+
+  .__react_modal_image__caption {
+    font-size: 18px !important;
+  }
+
 }
 
+@media screen and (max-width: 700px) {
 
+  .references {
+    display: inline-flex !important;
+    flex-wrap: wrap !important;
+    width: 90% !important;
+    float: none !important;
+  }
+
+  .referenceCardWrapper {
+    padding-top: 0 !important;
+  }
+
+  .referencePhoneText {
+    width: 90%;
+    margin: auto;
+  }
+
+  .referenceImg {
+    width: 90% !important;
+  }
+
+  .referenceName {
+    margin-left: 15px;
+    justify-content: center;
+  }
+
+  .referenceNameActive {
+    margin-left: 15px;
+    justify-content: center;
+  }
+
+  .reset-crysta {
+    margin-top: 0;
+    margin-left: -20px;
+  }
+
+}
 

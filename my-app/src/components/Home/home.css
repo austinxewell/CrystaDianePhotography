@@ -11,18 +11,16 @@
 }
 
 .reviewsTitle {
-    margin-bottom: 5px;
-    margin-top: -20px !important;
-    margin-left: -30%;
+    margin: auto;
+    margin-bottom: 10px !important;
 }
 
 .referenceWrapper {
     text-align: center;
-
 }
 
 .referenceCardWrapper {
-    margin-left: 5%;
+   margin: auto;
     margin-top: -15px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -82,32 +80,31 @@
     cursor: pointer;
 }
 
-img {
-    object-fit: cover !important;
+.header-image {
+    object-fit: cover;
     width: 100%;
 }
 
 .home-carousel .rec-carousel {
-    margin-top: 0px;
     width: 102%;
 }
 
-.home-carousel .rec-arrow {
-    display: none !important;
-}
 
-.home-carousel {
+.home-background-image {
     position: relative;
+    margin-left: 10%;
+    width: 80%;
+    border: solid var(--dark);
 }
 
 .text-wrapper {
+    position: absolute;
     background-color: var(--secondary);
     text-align: center;
     width: 30%;
     font-size: 18px;
     padding: 10px 20px;
     margin-left: 65%;
-    margin-top: -40px;
-    border: solid var(--activeLink);
-    
+    margin-top: -50%;
+    border: solid var(--activeLink);   
 }

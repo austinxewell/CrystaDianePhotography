@@ -40,9 +40,9 @@ export default function Home() {
                     enableAutoPlay={true}
                     autoPlaySpeed={5000}
                     enableSwipe={false}
-                    // showArrows={false}
-                    // disableArrowsOnEnd={true}
-                    >
+                    showArrows={false}
+                    disableArrowsOnEnd={true}
+                >
                     {images.map((image) => (
                         <img
                             src={require(`../../assets/${image.imgLinkName}.JPG`)}
@@ -52,17 +52,23 @@ export default function Home() {
                     ))}
                 </Carousel>
             </section>
-
-            <div className='text-wrapper'>
-                <p>Hi! I’m Crysta! <br />I enjoy traveling, thrifting and good music. I am so happy that you are here & cannot wait to get to know you!</p>
+            <div>
+                <img
+                    src={require('../../assets/backgroundImages/pic4.JPG')}
+                    className='home-background-image'
+                ></img>
+                <div className='text-wrapper'>
+                    <p>Hi! I’m Crysta! <br />I enjoy traveling, thrifting and good music. I am so happy that you are here & cannot wait to get to know you!</p>
+                </div>
+                <div className='text-wrapper-phone'>
+                    <p>Hi! I’m Crysta! <br />I enjoy traveling, thrifting and good music. I am so happy that you are here & cannot wait to get to know you!</p>
+                </div>
             </div>
-
-
             <container className='referenceWrapper'>
                 <h3 className='reviewsTitle'>•REVIEWS•</h3>
                 <div className='referenceCardWrapper'>
                     <ul className='references'>
-                        <p className='referenceName' onClick={() => resetCrystaReference()}>Crysta</p>
+                        <p className='referenceName reset-crysta' onClick={() => resetCrystaReference()}>Crysta</p>
                         {references.map((reference, index) => (
                             <li
                                 onClick={() => handleOnClick(index)}
@@ -75,6 +81,8 @@ export default function Home() {
                     </ul>
                     <References reference={reference} />
                 </div>
+                <div className='referenceTextWrapper'>
+            </div>
             </container>
         </div>
     )
