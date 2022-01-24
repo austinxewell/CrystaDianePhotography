@@ -21,5 +21,8 @@
     "url": "https://github.com/austinxewell/CrystaDianePhotography/issues"
   },
   "homepage": "https://github.com/austinxewell/CrystaDianePhotography",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "react-scripts": "^5.0.0"
+  }
 }
