@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CrystaDianePhotography/static/css/main.7c09638c.css",
-    "main.js": "/CrystaDianePhotography/static/js/main.6b482aa2.js",
+    "main.js": "/CrystaDianePhotography/static/js/main.cd99414a.js",
     "static/js/787.edd59a96.chunk.js": "/CrystaDianePhotography/static/js/787.edd59a96.chunk.js",
     "static/media/pic2.JPG": "/CrystaDianePhotography/static/media/pic2.7421993ab84ae46d567f.JPG",
     "static/media/pic3.JPG": "/CrystaDianePhotography/static/media/pic3.ac4a00c1d69a30a36073.JPG",
@@ -14,11 +14,11 @@
     "static/media/pic3.png": "/CrystaDianePhotography/static/media/pic3.32f10f7ab1cdb27f9b17.png",
     "index.html": "/CrystaDianePhotography/index.html",
     "main.7c09638c.css.map": "/CrystaDianePhotography/static/css/main.7c09638c.css.map",
-    "main.6b482aa2.js.map": "/CrystaDianePhotography/static/js/main.6b482aa2.js.map",
+    "main.cd99414a.js.map": "/CrystaDianePhotography/static/js/main.cd99414a.js.map",
     "787.edd59a96.chunk.js.map": "/CrystaDianePhotography/static/js/787.edd59a96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c09638c.css",
-    "static/js/main.6b482aa2.js"
+    "static/js/main.cd99414a.js"
   ]
 }
