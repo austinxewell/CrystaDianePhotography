@@ -62,9 +62,6 @@ export default function IndividualHeadshots() {
                         <button className='collectionPhoneInquire weddingLeftInquire'>INQUIRE NOW <FaLongArrowAltRight /></button>
                     </NavLink>
                 </div>
-
-
-
             </div>
             <div className='card-container'>
                 <a className='flex-row'>
@@ -73,7 +70,7 @@ export default function IndividualHeadshots() {
                             small={require(`../../assets/individualHeadshotImages/pic3.JPG`)}
                             large={require(`../../assets/individualHeadshotImages/pic3.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Portraits - Nephi'
                         />
                     </div>
                 </a>

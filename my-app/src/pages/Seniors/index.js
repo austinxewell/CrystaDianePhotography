@@ -15,7 +15,6 @@ export default function Seniors() {
                 </div>
                 <div className='collectionText paddingText'>
                     <div className='goldTitleWrapper'><h3 className='collectionTitle goldTitle'>STANDARD</h3></div>
-
                     <p className='collectionPrice'>Price: $100</p>
                     <ul className='collectionList'>
                         <li className='collectionLeftListItem weddingListItem'>45-60 minutes</li>
@@ -36,7 +35,7 @@ export default function Seniors() {
                             small={require(`../../assets/seniorImages/pic2.JPG`)}
                             large={require(`../../assets/seniorImages/pic2.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Portraits - Tunnel Springs'
                         />
                     </div>
                     <div className='imageCard'>
@@ -44,7 +43,7 @@ export default function Seniors() {
                             small={require(`../../assets/seniorImages/pic3.JPG`)}
                             large={require(`../../assets/seniorImages/pic3.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Portraits - Salt Flats'
                         />
                     </div>
                 </a>

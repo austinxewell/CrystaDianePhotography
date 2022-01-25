@@ -28,7 +28,6 @@ export default function Couples() {
                     </NavLink>
                 </div>
             </div>
-
             {/* Mini */}
             <div className='serviceWrapper flex-row packageWrapper'>
                 <div className='collectionLeftText weddingCollectionLeftText'>
@@ -72,7 +71,7 @@ export default function Couples() {
                             small={require(`../../assets/coupleImages/pic3.JPG`)}
                             large={require(`../../assets/coupleImages/pic3.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                     <div className='imageCard'>
@@ -80,7 +79,7 @@ export default function Couples() {
                             small={require(`../../assets/coupleImages/pic4.JPG`)}
                             large={require(`../../assets/coupleImages/pic4.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                     <div className='imageCard'>
@@ -88,7 +87,7 @@ export default function Couples() {
                             small={require(`../../assets/coupleImages/pic5.JPG`)}
                             large={require(`../../assets/coupleImages/pic5.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                 </a>

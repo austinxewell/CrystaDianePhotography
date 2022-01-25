@@ -36,7 +36,7 @@ export default function SchoolDances() {
                             small={require(`../../assets/schoolDanceImages/pic1.JPG`)}
                             large={require(`../../assets/schoolDanceImages/pic1.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='School Dance - Provo'
                         />
                     </div>
                     <div className='imageCard'>
@@ -44,7 +44,7 @@ export default function SchoolDances() {
                             small={require(`../../assets/schoolDanceImages/pic3.JPG`)}
                             large={require(`../../assets/schoolDanceImages/pic3.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='School Dance - Provo'
                         />
                     </div>
                     <div className='imageCard'>
@@ -52,7 +52,7 @@ export default function SchoolDances() {
                             small={require(`../../assets/schoolDanceImages/pic4.JPG`)}
                             large={require(`../../assets/schoolDanceImages/pic4.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='School Dance - Provo'
                         />
                     </div>
                     <div className='imageCard'>
@@ -60,7 +60,7 @@ export default function SchoolDances() {
                             small={require(`../../assets/schoolDanceImages/pic2.JPG`)}
                             large={require(`../../assets/schoolDanceImages/pic2.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='School Dance - Provo'
                         />
                     </div>
                     <div className='imageCard'>
@@ -68,7 +68,7 @@ export default function SchoolDances() {
                             small={require(`../../assets/schoolDanceImages/pic6.JPG`)}
                             large={require(`../../assets/schoolDanceImages/pic6.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='School Dance - Provo'
                         />
                     </div>
                 </a>

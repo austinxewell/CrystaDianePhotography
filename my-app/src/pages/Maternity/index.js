@@ -34,7 +34,7 @@ export default function Maternity() {
                             small={require(`../../assets/maternityImages/pic1.JPG`)}
                             large={require(`../../assets/maternityImages/pic1.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                     <div className='imageCard'>
@@ -42,7 +42,7 @@ export default function Maternity() {
                             small={require(`../../assets/maternityImages/pic3.JPG`)}
                             large={require(`../../assets/maternityImages/pic3.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                     <div className='imageCard'>
@@ -50,7 +50,7 @@ export default function Maternity() {
                             small={require(`../../assets/maternityImages/pic4.JPG`)}
                             large={require(`../../assets/maternityImages/pic4.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Family Session - Tunnel Springs'
                         />
                     </div>
                 </a>

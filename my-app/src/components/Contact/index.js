@@ -1,8 +1,8 @@
-import React, { isValidElement, useState } from 'react';
+import React, { useState } from 'react';
 import { validateEmail, validatePhoneNumber } from '../utils/helpers';
 import axios from 'axios';
 import './contact.css'
-import { FaClosedCaptioning, FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export default function Contact() {
     const [formState, setFormState] = useState({ fullName: '', email: '', phone: '', address: '', subject: '', message: '' });
@@ -62,7 +62,6 @@ export default function Contact() {
             console.log('message: ', message)
         }
     };
-
 
     const formId = 'H1PvHOWb';
     const formSparkUrl = `https://submit-form.com/${formId}`

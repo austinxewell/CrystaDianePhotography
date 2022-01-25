@@ -97,7 +97,7 @@ export default function Weddings() {
                             small={require(`../../assets/weddingImages/pic4.JPG`)}
                             large={require(`../../assets/weddingImages/pic4.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Wedding Details'
                         />
                     </div>
                     <div className='imageCard'>
@@ -105,7 +105,7 @@ export default function Weddings() {
                             small={require(`../../assets/weddingImages/pic5.JPG`)}
                             large={require(`../../assets/weddingImages/pic5.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Wedding Details'
                         />
                     </div>
                     <div className='imageCard'>
@@ -113,7 +113,7 @@ export default function Weddings() {
                             small={require(`../../assets/weddingImages/pic6.JPG`)}
                             large={require(`../../assets/weddingImages/pic6.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Wedding Details'
                         />
                     </div>
                     <div className='imageCard'>
@@ -121,7 +121,7 @@ export default function Weddings() {
                             small={require(`../../assets/weddingImages/pic7.JPG`)}
                             large={require(`../../assets/weddingImages/pic7.JPG`)}
                             className='galleryImg'
-                            alt='pic1'
+                            alt='Wedding Details'
                         />
                     </div>
                 </a>
