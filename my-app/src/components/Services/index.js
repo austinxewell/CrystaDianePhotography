@@ -215,7 +215,7 @@ export default function Services() {
                 </div>
                 {/* Dynamic html for mobile layout. */}
                 <div className='collectionPhoneText'>
-                    <h3 className='collectionPhoneTitle'>FAMILY</h3>
+                    <h3 className='collectionPhoneTitle'>SENIORS</h3>
                     <p className='collectionPhonePrice'>Price: $100</p>
                     <ul className='collectionPhoneList'>
                         <li className='collectionPhoneListItem'>45-60 Minutes</li>
