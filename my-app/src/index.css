@@ -75,10 +75,14 @@ h3 {
 
 .text-wrapper-phone {
   display: none;
+  border: none !important;
+  border-top: solid var(--activeLink) !important;
+  border-bottom: solid var(--activeLink) !important;
+  width: 100% !important;
 }
 
 .referencePhoneTextWrapper {
-  display: none;  
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -314,6 +318,11 @@ h3 {
 
   .home-background-image {
     margin-top: 10px;
+    width: 100% !important;
+    border: none !important;
+    margin-left: 0px !important;
+    border-top: solid var(--dark) !important;
+    border-bottom: solid var(--dark) !important;
   }
 
   .text-wrapper {
@@ -341,7 +350,11 @@ h3 {
   }
 
   .referenceCardWrapper {
-    width: 80% !important;
+    width: 100% !important;
+    border: none !important;
+    border-top: solid var(--activeLink) !important;
+    border-bottom: solid var(--activeLink) !important;
+
   }
 
   .referencePhoneTitleName {
@@ -357,6 +370,8 @@ h3 {
     font-size: 18px;
     width: 70%;
   }
+
+
 
   .__react_modal_image__caption {
     font-size: 18px !important;
